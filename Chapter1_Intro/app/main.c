@@ -1,13 +1,9 @@
 #include <stdio.h>
-#include <stdbool.h>
-
 #include "my_lib.h"
 
 int main() {
 
-    // system("clear");
-
-    hallo_my_libcc();
+    printf("Hello from BasicStructure \n");
 
     hallo_my_libcc();
 

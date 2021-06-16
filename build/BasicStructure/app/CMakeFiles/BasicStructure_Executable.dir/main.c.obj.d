@@ -1,21 +1,17 @@
 BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/main.c.obj: \
- C\:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/app/main.c \
- /usr/include/stdio.h /usr/include/_ansi.h /usr/include/newlib.h \
- /usr/include/_newlib_version.h /usr/include/sys/config.h \
- /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
- /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
- /usr/include/machine/_default_types.h \
- /usr/lib/gcc/x86_64-pc-cygwin/10/include/stddef.h \
- /usr/lib/gcc/x86_64-pc-cygwin/10/include/stdarg.h \
- /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
- /usr/include/machine/_types.h /usr/include/sys/lock.h \
- /usr/include/sys/types.h /usr/include/sys/_stdint.h \
- /usr/include/machine/endian.h /usr/include/machine/_endian.h \
- /usr/include/bits/endian.h /usr/include/sys/select.h \
- /usr/include/sys/_sigset.h /usr/include/sys/_timeval.h \
- /usr/include/sys/timespec.h /usr/include/sys/_timespec.h \
- /usr/include/sys/_pthreadtypes.h /usr/include/sys/cpuset.h \
- /usr/include/machine/types.h /usr/include/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/wordsize.h \
- /usr/include/sys/sysmacros.h /usr/include/sys/stdio.h \
- C\:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/include/my_lib.h
+ C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\BasicStructure\app\main.c \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdbool.h \
+ C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/include/my_lib.h

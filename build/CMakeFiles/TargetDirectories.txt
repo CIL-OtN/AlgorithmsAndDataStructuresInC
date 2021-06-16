@@ -1,0 +1,10 @@
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/CMakeFiles/rebuild_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/CMakeFiles/rebuild_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/src/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/src/CMakeFiles/rebuild_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/app/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/app/CMakeFiles/rebuild_cache.dir

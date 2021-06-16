@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/src",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe  @CMakeFiles/BasicStructure_MyLib.dir/includes_C.rsp -g -o CMakeFiles/BasicStructure_MyLib.dir/my_lib.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/src/my_lib.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/src/my_lib.c"
+},
+{
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/BasicStructure/app",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe  @CMakeFiles/BasicStructure_Executable.dir/includes_C.rsp -g -o CMakeFiles/BasicStructure_Executable.dir/main.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/app/main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/BasicStructure/app/main.c"
+}
+]

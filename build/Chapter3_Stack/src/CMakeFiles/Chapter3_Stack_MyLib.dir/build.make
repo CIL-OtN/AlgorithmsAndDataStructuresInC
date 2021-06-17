@@ -68,22 +68,22 @@ include Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/progress.make
 # Include the compile flags for this target's objects.
 include Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/flags.make
 
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/flags.make
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/includes_C.rsp
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj: ../Chapter3_Stack/src/my_lib.c
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj"
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj -MF CMakeFiles\Chapter3_Stack_MyLib.dir\my_lib.c.obj.d -o CMakeFiles\Chapter3_Stack_MyLib.dir\my_lib.c.obj -c C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\my_lib.c
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/flags.make
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/includes_C.rsp
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj: ../Chapter3_Stack/src/stack.c
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj"
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj -MF CMakeFiles\Chapter3_Stack_MyLib.dir\stack.c.obj.d -o CMakeFiles\Chapter3_Stack_MyLib.dir\stack.c.obj -c C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\stack.c
 
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.i"
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\my_lib.c > CMakeFiles\Chapter3_Stack_MyLib.dir\my_lib.c.i
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.i"
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\stack.c > CMakeFiles\Chapter3_Stack_MyLib.dir\stack.c.i
 
-Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.s"
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\my_lib.c -o CMakeFiles\Chapter3_Stack_MyLib.dir\my_lib.c.s
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.s"
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter3_Stack\src && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\stack.c -o CMakeFiles\Chapter3_Stack_MyLib.dir\stack.c.s
 
-Chapter3_Stack_MyLib: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj
+Chapter3_Stack_MyLib: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj
 Chapter3_Stack_MyLib: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/build.make
 .PHONY : Chapter3_Stack_MyLib
 

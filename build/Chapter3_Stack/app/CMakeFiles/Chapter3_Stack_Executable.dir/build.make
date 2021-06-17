@@ -89,10 +89,10 @@ Chapter3_Stack_Executable_OBJECTS = \
 
 # External object files for target Chapter3_Stack_Executable
 Chapter3_Stack_Executable_EXTERNAL_OBJECTS = \
-"C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj"
+"C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj"
 
 Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/main.c.obj
-Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj
+Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj
 Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/build.make
 Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/linklibs.rsp
 Chapter3_Stack/app/Chapter3_Stack_Executable.exe: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/objects1.rsp

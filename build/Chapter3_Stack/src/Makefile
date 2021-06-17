@@ -129,29 +129,29 @@ Chapter3_Stack_MyLib/fast:
 	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/build
 .PHONY : Chapter3_Stack_MyLib/fast
 
-my_lib.obj: my_lib.c.obj
-.PHONY : my_lib.obj
+stack.obj: stack.c.obj
+.PHONY : stack.obj
 
 # target to build an object file
-my_lib.c.obj:
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj
-.PHONY : my_lib.c.obj
+stack.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj
+.PHONY : stack.c.obj
 
-my_lib.i: my_lib.c.i
-.PHONY : my_lib.i
+stack.i: stack.c.i
+.PHONY : stack.i
 
 # target to preprocess a source file
-my_lib.c.i:
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.i
-.PHONY : my_lib.c.i
+stack.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.i
+.PHONY : stack.c.i
 
-my_lib.s: my_lib.c.s
-.PHONY : my_lib.s
+stack.s: stack.c.s
+.PHONY : stack.s
 
 # target to generate assembly for a file
-my_lib.c.s:
-	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.s
-.PHONY : my_lib.c.s
+stack.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.s
+.PHONY : stack.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Chapter3_Stack_MyLib
-	@echo ... my_lib.obj
-	@echo ... my_lib.i
-	@echo ... my_lib.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
 .PHONY : help
 
 

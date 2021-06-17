@@ -1,5 +1,5 @@
-Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/main.c.obj: \
- C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\app\main.c \
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj: \
+ C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\Chapter3_Stack\src\stack.c \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/_mingw.h \
@@ -19,7 +19,6 @@ Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/main.c.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/limits.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/malloc.h \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/assert.h \
  C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack/include/stack.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \

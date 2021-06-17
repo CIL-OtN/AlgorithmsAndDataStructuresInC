@@ -135,7 +135,7 @@
 		{
 			"backtrace" : 2,
 			"isGenerated" : true,
-			"path" : "build/Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj",
+			"path" : "build/Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj"
-  "CMakeFiles/Chapter3_Stack_MyLib.dir/my_lib.c.obj.d"
+  "CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj"
+  "CMakeFiles/Chapter3_Stack_MyLib.dir/stack.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

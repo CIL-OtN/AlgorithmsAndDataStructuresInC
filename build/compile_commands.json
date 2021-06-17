@@ -1,8 +1,8 @@
 [
 {
   "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/src",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter3_Stack_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter3_Stack_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter3_Stack\\src\\my_lib.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack/src/my_lib.c"
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter3_Stack_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter3_Stack_MyLib.dir\\stack.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter3_Stack\\src\\stack.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack/src/stack.c"
 },
 {
   "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/app",

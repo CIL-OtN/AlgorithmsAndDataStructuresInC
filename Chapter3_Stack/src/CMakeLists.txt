@@ -1,6 +1,6 @@
 # CMake for my_lib.c
 
-set(LIBRARY_SOURCES "my_lib.c")
+set(LIBRARY_SOURCES "stack.c")
 set(LIBRARY_INCLUDES "${PROJECT_SOURCE_DIR}/include/")
 
 add_library(${LIBRARY_NAME} OBJECT ${LIBRARY_SOURCES})

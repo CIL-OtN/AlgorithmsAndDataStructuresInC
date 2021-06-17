@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BasicStructure_MyLib
+# Target rules for targets named Chapter3_Stack_MyLib
 
 # Build rule for target.
-BasicStructure_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BasicStructure_MyLib
-.PHONY : BasicStructure_MyLib
+Chapter3_Stack_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_Stack_MyLib
+.PHONY : Chapter3_Stack_MyLib
 
 # fast build rule for target.
-BasicStructure_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f BasicStructure\src\CMakeFiles\BasicStructure_MyLib.dir\build.make BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/build
-.PHONY : BasicStructure_MyLib/fast
+Chapter3_Stack_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/build
+.PHONY : Chapter3_Stack_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named BasicStructure_Executable
+# Target rules for targets named Chapter3_Stack_Executable
 
 # Build rule for target.
-BasicStructure_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BasicStructure_Executable
-.PHONY : BasicStructure_Executable
+Chapter3_Stack_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_Stack_Executable
+.PHONY : Chapter3_Stack_Executable
 
 # fast build rule for target.
-BasicStructure_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f BasicStructure\app\CMakeFiles\BasicStructure_Executable.dir\build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build
-.PHONY : BasicStructure_Executable/fast
+Chapter3_Stack_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\app\CMakeFiles\Chapter3_Stack_Executable.dir\build.make Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/build
+.PHONY : Chapter3_Stack_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BasicStructure_Executable
-	@echo ... BasicStructure_MyLib
+	@echo ... Chapter3_Stack_Executable
+	@echo ... Chapter3_Stack_MyLib
 .PHONY : help
 
 

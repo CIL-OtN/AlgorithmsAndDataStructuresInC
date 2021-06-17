@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "my_lib.h"
+#include <stdlib.h>
+#include <stdint.h>
+
 
 int main() {
 
-    printf("Hello from BasicStructure \n");
+    system("clear");
 
-    hallo_my_libcc();
 
     return 0;
 }

@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: BasicStructure/all
+all: Chapter3_Stack/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: BasicStructure/preinstall
+preinstall: Chapter3_Stack/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: BasicStructure/clean
+clean: Chapter3_Stack/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory BasicStructure
+# Directory level rules for directory Chapter3_Stack
 
 # Recursive "all" directory target.
-BasicStructure/all: BasicStructure/src/all
-BasicStructure/all: BasicStructure/app/all
-.PHONY : BasicStructure/all
+Chapter3_Stack/all: Chapter3_Stack/src/all
+Chapter3_Stack/all: Chapter3_Stack/app/all
+.PHONY : Chapter3_Stack/all
 
 # Recursive "preinstall" directory target.
-BasicStructure/preinstall: BasicStructure/src/preinstall
-BasicStructure/preinstall: BasicStructure/app/preinstall
-.PHONY : BasicStructure/preinstall
+Chapter3_Stack/preinstall: Chapter3_Stack/src/preinstall
+Chapter3_Stack/preinstall: Chapter3_Stack/app/preinstall
+.PHONY : Chapter3_Stack/preinstall
 
 # Recursive "clean" directory target.
-BasicStructure/clean: BasicStructure/src/clean
-BasicStructure/clean: BasicStructure/app/clean
-.PHONY : BasicStructure/clean
+Chapter3_Stack/clean: Chapter3_Stack/src/clean
+Chapter3_Stack/clean: Chapter3_Stack/app/clean
+.PHONY : Chapter3_Stack/clean
 
 #=============================================================================
-# Directory level rules for directory BasicStructure/app
+# Directory level rules for directory Chapter3_Stack/app
 
 # Recursive "all" directory target.
-BasicStructure/app/all: BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/all
-.PHONY : BasicStructure/app/all
+Chapter3_Stack/app/all: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/all
+.PHONY : Chapter3_Stack/app/all
 
 # Recursive "preinstall" directory target.
-BasicStructure/app/preinstall:
-.PHONY : BasicStructure/app/preinstall
+Chapter3_Stack/app/preinstall:
+.PHONY : Chapter3_Stack/app/preinstall
 
 # Recursive "clean" directory target.
-BasicStructure/app/clean: BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/clean
-.PHONY : BasicStructure/app/clean
+Chapter3_Stack/app/clean: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/clean
+.PHONY : Chapter3_Stack/app/clean
 
 #=============================================================================
-# Directory level rules for directory BasicStructure/src
+# Directory level rules for directory Chapter3_Stack/src
 
 # Recursive "all" directory target.
-BasicStructure/src/all: BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/all
-.PHONY : BasicStructure/src/all
+Chapter3_Stack/src/all: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/all
+.PHONY : Chapter3_Stack/src/all
 
 # Recursive "preinstall" directory target.
-BasicStructure/src/preinstall:
-.PHONY : BasicStructure/src/preinstall
+Chapter3_Stack/src/preinstall:
+.PHONY : Chapter3_Stack/src/preinstall
 
 # Recursive "clean" directory target.
-BasicStructure/src/clean: BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/clean
-.PHONY : BasicStructure/src/clean
+Chapter3_Stack/src/clean: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/clean
+.PHONY : Chapter3_Stack/src/clean
 
 #=============================================================================
-# Target rules for target BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir
+# Target rules for target Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir
 
 # All Build rule for target.
-BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f BasicStructure\src\CMakeFiles\BasicStructure_MyLib.dir\build.make BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f BasicStructure\src\CMakeFiles\BasicStructure_MyLib.dir\build.make BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target BasicStructure_MyLib"
-.PHONY : BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/all
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter3_Stack_MyLib"
+.PHONY : Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/rule: cmake_check_build_system
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/rule
+.PHONY : Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/rule
 
 # Convenience name for target.
-BasicStructure_MyLib: BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/rule
-.PHONY : BasicStructure_MyLib
+Chapter3_Stack_MyLib: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/rule
+.PHONY : Chapter3_Stack_MyLib
 
 # clean rule for target.
-BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f BasicStructure\src\CMakeFiles\BasicStructure_MyLib.dir\build.make BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/clean
-.PHONY : BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/clean
+Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\src\CMakeFiles\Chapter3_Stack_MyLib.dir\build.make Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/clean
+.PHONY : Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir
+# Target rules for target Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir
 
 # All Build rule for target.
-BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/all: BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f BasicStructure\app\CMakeFiles\BasicStructure_Executable.dir\build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f BasicStructure\app\CMakeFiles\BasicStructure_Executable.dir\build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target BasicStructure_Executable"
-.PHONY : BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/all
+Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/all: Chapter3_Stack/src/CMakeFiles/Chapter3_Stack_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\app\CMakeFiles\Chapter3_Stack_Executable.dir\build.make Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\app\CMakeFiles\Chapter3_Stack_Executable.dir\build.make Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter3_Stack_Executable"
+.PHONY : Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule: cmake_check_build_system
+Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule
+.PHONY : Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/rule
 
 # Convenience name for target.
-BasicStructure_Executable: BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule
-.PHONY : BasicStructure_Executable
+Chapter3_Stack_Executable: Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/rule
+.PHONY : Chapter3_Stack_Executable
 
 # clean rule for target.
-BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f BasicStructure\app\CMakeFiles\BasicStructure_Executable.dir\build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/clean
-.PHONY : BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/clean
+Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter3_Stack\app\CMakeFiles\Chapter3_Stack_Executable.dir\build.make Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/clean
+.PHONY : Chapter3_Stack/app/CMakeFiles/Chapter3_Stack_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

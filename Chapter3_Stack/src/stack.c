@@ -41,30 +41,60 @@ stack_t *freeStack(stack_t *stack)
 
 bool isFull(stack_t *stack) 
 {
-
+    return (stack->size == stack->capacity);
 }
 
 bool isEmpty(stack_t *stack)
 {
-    
+    return (0u == stack->size);
 }
 
 void push(stack_t *stack, value_type_t value)
 {
-    
+    if(true == isFull(stack)) 
+    {
+        return;
+    }
+
+    stack->data[stack->size] = value;
+
+    stack->size++;
 }
 
 value_type_t pop(stack_t *stack)
 {
-    
+    if(true==isEmpty(stack)) 
+    {
+        return NO_VALUE;
+    }
+
+    stack->size--;
+
+    return stack->data[stack->size];    
 }
 
 value_type_t top(stack_t *stack)
 {
-    
+    if(true == isEmpty(stack)) 
+    {
+        return NO_VALUE;
+    }
+
+    return stack->data[stack->size - 1u];
 }
 
 void printStack(stack_t *stack)
 {
+    if(NULL == stack) 
+    {
+        return;
+    }
+
+    printf("\nStack contains %u elements with a capacity of %u. \n", stack->size, stack->capacity);
+
+    for (int32_t i = stack->size - 1; i >= 0; i--)
+    {
+        printf("Index: %d, Value %f \n", i, stack->data[i]);
+    }
     
 }

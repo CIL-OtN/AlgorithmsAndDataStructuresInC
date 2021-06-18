@@ -15,9 +15,15 @@ int main(void) {
 
     stack_t *stack = createStack(capacity);
 
+    
+    for (uint32_t i = 0; i < stack->size-1; i++)
+    {
+        push(stack, i);
+    }
+    
+    printStack(stack);
 
-    printf("%d \n", *stack);
-
+    printf("%f\n", top(stack));
 
     stack = freeStack(stack);
 

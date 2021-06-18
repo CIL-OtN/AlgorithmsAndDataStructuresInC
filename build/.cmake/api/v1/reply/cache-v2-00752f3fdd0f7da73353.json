@@ -1304,6 +1304,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack"
+		},
+		{
+			"name" : "Chapter4_Queue_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_Queue"
+		},
+		{
+			"name" : "Chapter4_Queue_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_Queue"
 		}
 	],
 	"kind" : "cache",

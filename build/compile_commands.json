@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/src",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter3_Stack_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter3_Stack_MyLib.dir\\stack.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter3_Stack\\src\\stack.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack/src/stack.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_Queue/src",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter4_Queue_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter4_Queue_MyLib.dir\\queue.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter4_Queue\\src\\queue.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_Queue/src/queue.c"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack/app",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter3_Stack_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Chapter3_Stack_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter3_Stack\\app\\main.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack/app/main.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_Queue/app",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter4_Queue_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Chapter4_Queue_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter4_Queue\\app\\main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_Queue/app/main.c"
 }
 ]

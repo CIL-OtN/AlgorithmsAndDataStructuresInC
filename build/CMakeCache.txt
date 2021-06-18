@@ -254,6 +254,12 @@ Chapter3_Stack_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/Al
 //Value Computed by CMake
 Chapter3_Stack_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_Stack
 
+//Value Computed by CMake
+Chapter4_Queue_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_Queue
+
+//Value Computed by CMake
+Chapter4_Queue_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_Queue
+
 
 ########################
 # INTERNAL cache entries

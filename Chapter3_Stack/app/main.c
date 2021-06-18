@@ -4,6 +4,7 @@
 
 #include "stack.h"
 
+// Last-In First-Out
 
 int main(void) {
 
@@ -13,10 +14,8 @@ int main(void) {
 
     stack_t *stack = createStack(capacity);
 
-    
-
     push(stack, 1.0f);
-    
+
     push(stack, 3.0f);
 
     push(stack, 5.0f);

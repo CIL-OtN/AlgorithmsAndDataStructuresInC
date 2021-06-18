@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Chapter4_Queue/all
+all: Chapter3_1_Stack/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Chapter4_Queue/preinstall
+preinstall: Chapter3_1_Stack/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Chapter4_Queue/clean
+clean: Chapter3_1_Stack/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Chapter4_Queue
+# Directory level rules for directory Chapter3_1_Stack
 
 # Recursive "all" directory target.
-Chapter4_Queue/all: Chapter4_Queue/src/all
-Chapter4_Queue/all: Chapter4_Queue/app/all
-.PHONY : Chapter4_Queue/all
+Chapter3_1_Stack/all: Chapter3_1_Stack/src/all
+Chapter3_1_Stack/all: Chapter3_1_Stack/app/all
+.PHONY : Chapter3_1_Stack/all
 
 # Recursive "preinstall" directory target.
-Chapter4_Queue/preinstall: Chapter4_Queue/src/preinstall
-Chapter4_Queue/preinstall: Chapter4_Queue/app/preinstall
-.PHONY : Chapter4_Queue/preinstall
+Chapter3_1_Stack/preinstall: Chapter3_1_Stack/src/preinstall
+Chapter3_1_Stack/preinstall: Chapter3_1_Stack/app/preinstall
+.PHONY : Chapter3_1_Stack/preinstall
 
 # Recursive "clean" directory target.
-Chapter4_Queue/clean: Chapter4_Queue/src/clean
-Chapter4_Queue/clean: Chapter4_Queue/app/clean
-.PHONY : Chapter4_Queue/clean
+Chapter3_1_Stack/clean: Chapter3_1_Stack/src/clean
+Chapter3_1_Stack/clean: Chapter3_1_Stack/app/clean
+.PHONY : Chapter3_1_Stack/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter4_Queue/app
+# Directory level rules for directory Chapter3_1_Stack/app
 
 # Recursive "all" directory target.
-Chapter4_Queue/app/all: Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/all
-.PHONY : Chapter4_Queue/app/all
+Chapter3_1_Stack/app/all: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
+.PHONY : Chapter3_1_Stack/app/all
 
 # Recursive "preinstall" directory target.
-Chapter4_Queue/app/preinstall:
-.PHONY : Chapter4_Queue/app/preinstall
+Chapter3_1_Stack/app/preinstall:
+.PHONY : Chapter3_1_Stack/app/preinstall
 
 # Recursive "clean" directory target.
-Chapter4_Queue/app/clean: Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/clean
-.PHONY : Chapter4_Queue/app/clean
+Chapter3_1_Stack/app/clean: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
+.PHONY : Chapter3_1_Stack/app/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter4_Queue/src
+# Directory level rules for directory Chapter3_1_Stack/src
 
 # Recursive "all" directory target.
-Chapter4_Queue/src/all: Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/all
-.PHONY : Chapter4_Queue/src/all
+Chapter3_1_Stack/src/all: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
+.PHONY : Chapter3_1_Stack/src/all
 
 # Recursive "preinstall" directory target.
-Chapter4_Queue/src/preinstall:
-.PHONY : Chapter4_Queue/src/preinstall
+Chapter3_1_Stack/src/preinstall:
+.PHONY : Chapter3_1_Stack/src/preinstall
 
 # Recursive "clean" directory target.
-Chapter4_Queue/src/clean: Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/clean
-.PHONY : Chapter4_Queue/src/clean
+Chapter3_1_Stack/src/clean: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
+.PHONY : Chapter3_1_Stack/src/clean
 
 #=============================================================================
-# Target rules for target Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir
+# Target rules for target Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir
 
 # All Build rule for target.
-Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\src\CMakeFiles\Chapter4_Queue_MyLib.dir\build.make Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\src\CMakeFiles\Chapter4_Queue_MyLib.dir\build.make Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter4_Queue_MyLib"
-.PHONY : Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/all
+Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter3_1_Stack_MyLib"
+.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/rule: cmake_check_build_system
+Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/rule
+.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule
 
 # Convenience name for target.
-Chapter4_Queue_MyLib: Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/rule
-.PHONY : Chapter4_Queue_MyLib
+Chapter3_1_Stack_MyLib: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule
+.PHONY : Chapter3_1_Stack_MyLib
 
 # clean rule for target.
-Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\src\CMakeFiles\Chapter4_Queue_MyLib.dir\build.make Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/clean
-.PHONY : Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/clean
+Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
+.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir
+# Target rules for target Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir
 
 # All Build rule for target.
-Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/all: Chapter4_Queue/src/CMakeFiles/Chapter4_Queue_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\app\CMakeFiles\Chapter4_Queue_Executable.dir\build.make Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\app\CMakeFiles\Chapter4_Queue_Executable.dir\build.make Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter4_Queue_Executable"
-.PHONY : Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/all
+Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter3_1_Stack_Executable"
+.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/rule: cmake_check_build_system
+Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/rule
+.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule
 
 # Convenience name for target.
-Chapter4_Queue_Executable: Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/rule
-.PHONY : Chapter4_Queue_Executable
+Chapter3_1_Stack_Executable: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule
+.PHONY : Chapter3_1_Stack_Executable
 
 # clean rule for target.
-Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter4_Queue\app\CMakeFiles\Chapter4_Queue_Executable.dir\build.make Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/clean
-.PHONY : Chapter4_Queue/app/CMakeFiles/Chapter4_Queue_Executable.dir/clean
+Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
+.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

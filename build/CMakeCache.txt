@@ -249,6 +249,18 @@ Chapter2_Basics_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/A
 Chapter2_Basics_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter2_Basics
 
 //Value Computed by CMake
+Chapter3_0_Stack_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_0_Stack
+
+//Value Computed by CMake
+Chapter3_0_Stack_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_0_Stack
+
+//Value Computed by CMake
+Chapter3_1_Stack_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_1_Stack
+
+//Value Computed by CMake
+Chapter3_1_Stack_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_1_Stack
+
+//Value Computed by CMake
 Chapter3_Stack_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter3_Stack
 
 //Value Computed by CMake

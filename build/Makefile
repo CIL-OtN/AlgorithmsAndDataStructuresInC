@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Chapter3_0_Stack_MyLib
+# Target rules for targets named Chapter4_0_Queue_MyLib
 
 # Build rule for target.
-Chapter3_0_Stack_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_0_Stack_MyLib
-.PHONY : Chapter3_0_Stack_MyLib
+Chapter4_0_Queue_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_0_Queue_MyLib
+.PHONY : Chapter4_0_Queue_MyLib
 
 # fast build rule for target.
-Chapter3_0_Stack_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter3_0_Stack\src\CMakeFiles\Chapter3_0_Stack_MyLib.dir\build.make Chapter3_0_Stack/src/CMakeFiles/Chapter3_0_Stack_MyLib.dir/build
-.PHONY : Chapter3_0_Stack_MyLib/fast
+Chapter4_0_Queue_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter4_0_Queue\src\CMakeFiles\Chapter4_0_Queue_MyLib.dir\build.make Chapter4_0_Queue/src/CMakeFiles/Chapter4_0_Queue_MyLib.dir/build
+.PHONY : Chapter4_0_Queue_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named Chapter3_0_Stack_Executable
+# Target rules for targets named Chapter4_0_Queue_Executable
 
 # Build rule for target.
-Chapter3_0_Stack_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_0_Stack_Executable
-.PHONY : Chapter3_0_Stack_Executable
+Chapter4_0_Queue_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_0_Queue_Executable
+.PHONY : Chapter4_0_Queue_Executable
 
 # fast build rule for target.
-Chapter3_0_Stack_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter3_0_Stack\app\CMakeFiles\Chapter3_0_Stack_Executable.dir\build.make Chapter3_0_Stack/app/CMakeFiles/Chapter3_0_Stack_Executable.dir/build
-.PHONY : Chapter3_0_Stack_Executable/fast
+Chapter4_0_Queue_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter4_0_Queue\app\CMakeFiles\Chapter4_0_Queue_Executable.dir\build.make Chapter4_0_Queue/app/CMakeFiles/Chapter4_0_Queue_Executable.dir/build
+.PHONY : Chapter4_0_Queue_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter3_0_Stack_Executable
-	@echo ... Chapter3_0_Stack_MyLib
+	@echo ... Chapter4_0_Queue_Executable
+	@echo ... Chapter4_0_Queue_MyLib
 .PHONY : help
 
 

@@ -65,6 +65,7 @@ value_type_t pop(stack_t *stack)
 {
     if(true==isEmpty(stack)) 
     {
+        printf("Stack is empty! \n");
         return NO_VALUE;
     }
 
@@ -77,6 +78,7 @@ value_type_t top(stack_t *stack)
 {
     if(true == isEmpty(stack)) 
     {
+        printf("Stack is empty! \n");
         return NO_VALUE;
     }
 
@@ -87,6 +89,7 @@ void printStack(stack_t *stack)
 {
     if(NULL == stack) 
     {
+        printf("Stack is empty! \n");
         return;
     }
 

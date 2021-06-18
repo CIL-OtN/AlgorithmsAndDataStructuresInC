@@ -9,21 +9,29 @@ int main(void) {
 
     system("clear");
 
-    printf("Stack size: %d bytes \n", sizeof(stack_t));
-
     uint32_t capacity = 10;
 
     stack_t *stack = createStack(capacity);
 
     
-    for (uint32_t i = 0; i < stack->size-1; i++)
-    {
-        push(stack, i);
-    }
+
+    push(stack, 1.0f);
     
+    push(stack, 3.0f);
+
+    push(stack, 5.0f);
+
+    push(stack, 7.0f);
+
+    push(stack, 9.0f);
+
+    pop(stack);
+
+    printf("Stack size: %d bytes \n", sizeof(stack_t));
+
     printStack(stack);
 
-    printf("%f\n", top(stack));
+    printf("Top value of stack is: %f", top(stack));
 
     stack = freeStack(stack);
 

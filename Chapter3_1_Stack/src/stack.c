@@ -85,6 +85,8 @@ value_type_t top(stack_t *stack)
         return NO_VALUE;
     }
 
+    printf("\nTop value of stack is: %f", top(stack));
+
     return stack->data[stack->size - 1u];
 }
 

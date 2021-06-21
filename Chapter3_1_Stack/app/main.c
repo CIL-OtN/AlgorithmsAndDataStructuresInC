@@ -26,7 +26,7 @@ int main(void) {
 
     printStack(stack);
 
-    printf("\nTop value of stack is: %f", top(stack));
+    top(stack);
 
     stack = freeStack(stack);
 

@@ -15,31 +15,20 @@ int main(void) {
     stack_t *stack = createStack(capacity);
 
     push(stack, 1.0f);
-
+    push(stack, 2.0f);
     push(stack, 3.0f);
-
+    push(stack, 4.0f);
     push(stack, 5.0f);
 
-    push(stack, 7.0f);
+    pop(stack);
+    pop(stack);
+    pop(stack);
 
-    push(stack, 9.0f);
+    printStack(stack);
 
-
-    printf("\nStack size: %d bytes \n", sizeof(stack_t));
-    
     printf("\nTop value of stack is: %f", top(stack));
 
-
-    printStack(stack);
-
-    pop(stack);
-
-    pop(stack);
-    
-    printStack(stack);
-
     stack = freeStack(stack);
-
 
     return 0;
 }

@@ -19,13 +19,13 @@ typedef float value_type_t;
 #define NO_VALUE (value_type_t)INFINITY
 typedef struct stack
 {
-    uint32_t size;          // how much "blocks" are stored
-    uint32_t capacity;      // how much 
-    value_type_t *data;     // array in heap
+    uint32_t        size;       // how much "blocks" are stored
+    uint32_t        capacity;   // how much 
+    value_type_t    *data;      // array in heap
 } stack_t;
 
-
 /***************/
+
 /*  FUNCTIONS  */
 /***************/
 

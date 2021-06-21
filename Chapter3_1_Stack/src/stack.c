@@ -9,6 +9,9 @@ stack_t *createStack(uint32_t capacity)
     if(NULL == stack)
         return NULL;
 
+    // reserve memory
+	// int *example = (int *) malloc(size * sizeof(int));
+
     size_t data_size = capacity * sizeof(value_type_t);
 
     value_type_t *data = (value_type_t *)malloc(data_size); // example: with capacity of 10 is 10 x 4 byte float = 40 bytes
@@ -56,9 +59,9 @@ void push(stack_t *stack, value_type_t value)
         return;
     }
 
-    stack->data[stack->size] = value;
+    stack->data[stack->size++] = value;
 
-    stack->size++;
+    printf("Push: %.2f \n", stack->data[stack->size -1]);
 }
 
 value_type_t pop(stack_t *stack)
@@ -69,9 +72,9 @@ value_type_t pop(stack_t *stack)
         return NO_VALUE;
     }
 
-    stack->size--;
+    printf("Pop: %.2f \n", stack->data[stack->size -1]);
 
-    return stack->data[stack->size];    
+    return stack->data[stack->size--];    
 }
 
 value_type_t top(stack_t *stack)
@@ -97,7 +100,7 @@ void printStack(stack_t *stack)
 
     for (int32_t i = stack->size - 1; i >= 0; i--)
     {
-        printf("Index: %d, Value %f \n", i, stack->data[i]);
+        printf("Index: %Fd, Value %.2f \n", i, stack->data[i]);
     }
     
 }

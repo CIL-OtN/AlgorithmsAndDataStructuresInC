@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Chapter4_0_Queue/src/CMakeFiles/Chapter4_0_Queue_MyLib.dir/queue.c.obj"
+			"path" : "Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/stack.c.obj"
 		}
 	],
 	"backtrace" : 1,
@@ -15,7 +15,7 @@
 		],
 		"files" : 
 		[
-			"Chapter4_0_Queue/src/CMakeLists.txt"
+			"Chapter3_1_Stack/src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -49,7 +49,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_0_Queue/include"
+					"path" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter3_1_Stack/include"
 				}
 			],
 			"language" : "C",
@@ -59,12 +59,12 @@
 			]
 		}
 	],
-	"id" : "Chapter4_0_Queue_MyLib::@b3c0b5b1e915cb6f29be",
-	"name" : "Chapter4_0_Queue_MyLib",
+	"id" : "Chapter3_1_Stack_MyLib::@325eedc1a45126fd1791",
+	"name" : "Chapter3_1_Stack_MyLib",
 	"paths" : 
 	{
-		"build" : "Chapter4_0_Queue/src",
-		"source" : "Chapter4_0_Queue/src"
+		"build" : "Chapter3_1_Stack/src",
+		"source" : "Chapter3_1_Stack/src"
 	},
 	"sourceGroups" : 
 	[
@@ -81,7 +81,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Chapter4_0_Queue/src/queue.c",
+			"path" : "Chapter3_1_Stack/src/stack.c",
 			"sourceGroupIndex" : 0
 		}
 	],

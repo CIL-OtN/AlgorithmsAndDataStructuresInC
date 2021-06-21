@@ -100,11 +100,8 @@ int main(void) {
 
     pop(queue);
     pop(queue);
-    pop(queue);
-
+    
     printQueue(queue);
-
-
     freeQueue(queue);
 
     return 0;

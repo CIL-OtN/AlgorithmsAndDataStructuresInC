@@ -10,9 +10,9 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter3_0_Stack")
 
-# add_subdirectory("Chapter3_1_Stack")
+add_subdirectory("Chapter3_1_Stack")
 
-add_subdirectory("Chapter4_0_Queue")
+# add_subdirectory("Chapter4_0_Queue")
 
 # add_subdirectory("Chapter4_1_Queue")
 

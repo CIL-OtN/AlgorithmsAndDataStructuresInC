@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "Chapter4_0_Queue",
+					"build" : "Chapter3_1_Stack",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "Chapter4_0_Queue"
+					"source" : "Chapter3_1_Stack"
 				},
 				{
-					"build" : "Chapter4_0_Queue/src",
+					"build" : "Chapter3_1_Stack/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter4_0_Queue/src",
+					"source" : "Chapter3_1_Stack/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "Chapter4_0_Queue/app",
+					"build" : "Chapter3_1_Stack/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter4_0_Queue/app",
+					"source" : "Chapter3_1_Stack/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "Chapter4_0_Queue_Project",
+					"name" : "Chapter3_1_Stack_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "Chapter4_0_Queue_Executable::@11a628e80236d159c2e8",
-					"jsonFile" : "target-Chapter4_0_Queue_Executable-Debug-afd8e3e7c3db9328dc7e.json",
-					"name" : "Chapter4_0_Queue_Executable",
+					"id" : "Chapter3_1_Stack_Executable::@95c0b920ea4680c4eae6",
+					"jsonFile" : "target-Chapter3_1_Stack_Executable-Debug-897042592d7d45aa7f5d.json",
+					"name" : "Chapter3_1_Stack_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "Chapter4_0_Queue_MyLib::@b3c0b5b1e915cb6f29be",
-					"jsonFile" : "target-Chapter4_0_Queue_MyLib-Debug-861e5c65a12cf7ae3834.json",
-					"name" : "Chapter4_0_Queue_MyLib",
+					"id" : "Chapter3_1_Stack_MyLib::@325eedc1a45126fd1791",
+					"jsonFile" : "target-Chapter3_1_Stack_MyLib-Debug-579eaa8eb5291f647ca5.json",
+					"name" : "Chapter3_1_Stack_MyLib",
 					"projectIndex" : 1
 				}
 			]

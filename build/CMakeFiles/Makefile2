@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Chapter3_1_Stack/all
+all: Chapter5_1_DLinkedList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Chapter3_1_Stack/preinstall
+preinstall: Chapter5_1_DLinkedList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Chapter3_1_Stack/clean
+clean: Chapter5_1_DLinkedList/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Chapter3_1_Stack
+# Directory level rules for directory Chapter5_1_DLinkedList
 
 # Recursive "all" directory target.
-Chapter3_1_Stack/all: Chapter3_1_Stack/src/all
-Chapter3_1_Stack/all: Chapter3_1_Stack/app/all
-.PHONY : Chapter3_1_Stack/all
+Chapter5_1_DLinkedList/all: Chapter5_1_DLinkedList/src/all
+Chapter5_1_DLinkedList/all: Chapter5_1_DLinkedList/app/all
+.PHONY : Chapter5_1_DLinkedList/all
 
 # Recursive "preinstall" directory target.
-Chapter3_1_Stack/preinstall: Chapter3_1_Stack/src/preinstall
-Chapter3_1_Stack/preinstall: Chapter3_1_Stack/app/preinstall
-.PHONY : Chapter3_1_Stack/preinstall
+Chapter5_1_DLinkedList/preinstall: Chapter5_1_DLinkedList/src/preinstall
+Chapter5_1_DLinkedList/preinstall: Chapter5_1_DLinkedList/app/preinstall
+.PHONY : Chapter5_1_DLinkedList/preinstall
 
 # Recursive "clean" directory target.
-Chapter3_1_Stack/clean: Chapter3_1_Stack/src/clean
-Chapter3_1_Stack/clean: Chapter3_1_Stack/app/clean
-.PHONY : Chapter3_1_Stack/clean
+Chapter5_1_DLinkedList/clean: Chapter5_1_DLinkedList/src/clean
+Chapter5_1_DLinkedList/clean: Chapter5_1_DLinkedList/app/clean
+.PHONY : Chapter5_1_DLinkedList/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter3_1_Stack/app
+# Directory level rules for directory Chapter5_1_DLinkedList/app
 
 # Recursive "all" directory target.
-Chapter3_1_Stack/app/all: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
-.PHONY : Chapter3_1_Stack/app/all
+Chapter5_1_DLinkedList/app/all: Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/all
+.PHONY : Chapter5_1_DLinkedList/app/all
 
 # Recursive "preinstall" directory target.
-Chapter3_1_Stack/app/preinstall:
-.PHONY : Chapter3_1_Stack/app/preinstall
+Chapter5_1_DLinkedList/app/preinstall:
+.PHONY : Chapter5_1_DLinkedList/app/preinstall
 
 # Recursive "clean" directory target.
-Chapter3_1_Stack/app/clean: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
-.PHONY : Chapter3_1_Stack/app/clean
+Chapter5_1_DLinkedList/app/clean: Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/clean
+.PHONY : Chapter5_1_DLinkedList/app/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter3_1_Stack/src
+# Directory level rules for directory Chapter5_1_DLinkedList/src
 
 # Recursive "all" directory target.
-Chapter3_1_Stack/src/all: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
-.PHONY : Chapter3_1_Stack/src/all
+Chapter5_1_DLinkedList/src/all: Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/all
+.PHONY : Chapter5_1_DLinkedList/src/all
 
 # Recursive "preinstall" directory target.
-Chapter3_1_Stack/src/preinstall:
-.PHONY : Chapter3_1_Stack/src/preinstall
+Chapter5_1_DLinkedList/src/preinstall:
+.PHONY : Chapter5_1_DLinkedList/src/preinstall
 
 # Recursive "clean" directory target.
-Chapter3_1_Stack/src/clean: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
-.PHONY : Chapter3_1_Stack/src/clean
+Chapter5_1_DLinkedList/src/clean: Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/clean
+.PHONY : Chapter5_1_DLinkedList/src/clean
 
 #=============================================================================
-# Target rules for target Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir
+# Target rules for target Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir
 
 # All Build rule for target.
-Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter3_1_Stack_MyLib"
-.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
+Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\src\CMakeFiles\Chapter5_1_DLinkedList_MyLib.dir\build.make Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\src\CMakeFiles\Chapter5_1_DLinkedList_MyLib.dir\build.make Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter5_1_DLinkedList_MyLib"
+.PHONY : Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule: cmake_check_build_system
+Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule
+.PHONY : Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/rule
 
 # Convenience name for target.
-Chapter3_1_Stack_MyLib: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/rule
-.PHONY : Chapter3_1_Stack_MyLib
+Chapter5_1_DLinkedList_MyLib: Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/rule
+.PHONY : Chapter5_1_DLinkedList_MyLib
 
 # clean rule for target.
-Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\src\CMakeFiles\Chapter3_1_Stack_MyLib.dir\build.make Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
-.PHONY : Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/clean
+Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\src\CMakeFiles\Chapter5_1_DLinkedList_MyLib.dir\build.make Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/clean
+.PHONY : Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir
+# Target rules for target Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir
 
 # All Build rule for target.
-Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all: Chapter3_1_Stack/src/CMakeFiles/Chapter3_1_Stack_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter3_1_Stack_Executable"
-.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
+Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/all: Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\app\CMakeFiles\Chapter5_1_DLinkedList_Executable.dir\build.make Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\app\CMakeFiles\Chapter5_1_DLinkedList_Executable.dir\build.make Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter5_1_DLinkedList_Executable"
+.PHONY : Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule: cmake_check_build_system
+Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule
+.PHONY : Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/rule
 
 # Convenience name for target.
-Chapter3_1_Stack_Executable: Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/rule
-.PHONY : Chapter3_1_Stack_Executable
+Chapter5_1_DLinkedList_Executable: Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/rule
+.PHONY : Chapter5_1_DLinkedList_Executable
 
 # clean rule for target.
-Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter3_1_Stack\app\CMakeFiles\Chapter3_1_Stack_Executable.dir\build.make Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
-.PHONY : Chapter3_1_Stack/app/CMakeFiles/Chapter3_1_Stack_Executable.dir/clean
+Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\app\CMakeFiles\Chapter5_1_DLinkedList_Executable.dir\build.make Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/clean
+.PHONY : Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

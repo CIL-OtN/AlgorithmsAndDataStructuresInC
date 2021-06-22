@@ -24,8 +24,8 @@ int main(void) {
 
     printQueue(queue);
 
-    //printf("Front of queue: %f \n", front(queue));
-    //printf("Back of queue : %f \n", back(queue));
+    // printf("Front of queue: %f \n", front(queue));
+    // printf("Back of queue : %f \n", back(queue));
 
     queue = freeQueue(queue);
 

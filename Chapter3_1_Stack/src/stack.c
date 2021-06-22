@@ -5,8 +5,6 @@
 
 void Menu() 
 {
-    int choice;
- 
     printf("1 -> Create a new stack \n");
     printf("2 -> Push a value to the stack \n");
     printf("3 -> Pop the top of the stack \n");

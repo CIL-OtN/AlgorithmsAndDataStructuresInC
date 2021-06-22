@@ -24,10 +24,24 @@ typedef struct stack
     value_type_t    *data;      // array in heap
 } stack_t;
 
+enum  
+{
+    CREATESTACK = 1,
+    PUSHSTACK = 2,
+    POPSTACK = 3,
+    STACKTOP = 4,
+    PRINTSTACK = 5,
+    FREESTACK = 6
+};
+
 /***************/
 
 /*  FUNCTIONS  */
 /***************/
+
+void Menu();
+
+int Options(int choice);
 
 stack_t *createStack(uint32_t capacity);
 
@@ -37,7 +51,7 @@ bool isFull(stack_t *stack);
 
 bool isEmpty(stack_t *stack);
 
-void push(stack_t *stack, value_type_t value);
+void push(stack_t *stack);
 
 value_type_t pop(stack_t *stack);
 

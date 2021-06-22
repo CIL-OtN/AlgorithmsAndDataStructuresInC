@@ -8,27 +8,51 @@
 
 int main(void) {
 
+    int choice;
+    uint32_t capacity;
+    stack_t *stack;
+    
     system("clear");
+    Menu();
 
-    uint32_t capacity = 10;
+    while(choice != 7) 
+    {
+        printf("Choice: ");
+        scanf("%d", &choice);
 
-    stack_t *stack = createStack(capacity);
+        switch(choice) 
+        {
+            case (CREATESTACK):
+                capacity = 10;
+                stack = createStack(capacity);
+                break;
+        
+            case (PUSHSTACK):
+                push(stack);
+                break;
+            
+            case (POPSTACK):
+                pop(stack);
+                break;
+            
+            case (STACKTOP):
+                printf("DANGER \n");
+                //top(stack);
+                break;
+            
+            case (PRINTSTACK):
+                printStack(stack);
+                break;
+            
+            case (FREESTACK):
+                freeStack(stack);
+                break;
 
-    push(stack, 1.0f);
-    push(stack, 2.0f);
-    push(stack, 3.0f);
-    push(stack, 4.0f);
-    push(stack, 5.0f);
+            default:
+                printf("Program end \n");
+        }
+    }
 
-    pop(stack);
-    pop(stack);
-    pop(stack);
-
-    printStack(stack);
-
-    top(stack);
-
-    stack = freeStack(stack);
 
     return 0;
 }

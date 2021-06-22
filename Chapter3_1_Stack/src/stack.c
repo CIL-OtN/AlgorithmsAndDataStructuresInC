@@ -2,6 +2,22 @@
 #include <stdlib.h>
 #include "stack.h"
 
+
+void Menu() 
+{
+    int choice;
+ 
+    printf("1 -> Create a new stack \n");
+    printf("2 -> Push a value to the stack \n");
+    printf("3 -> Pop the top of the stack \n");
+    printf("4 -> Print the top of the stack \n");
+    printf("5 -> Print the whole stack \n");
+    printf("6 -> Free stack \n");
+    printf("7 -> End program \n");
+    printf("-------------------------------\n");
+    printf("\n");
+}
+
 stack_t *createStack(uint32_t capacity) 
 {
     stack_t *stack = (stack_t *)malloc(sizeof(stack_t));  
@@ -22,6 +38,11 @@ stack_t *createStack(uint32_t capacity)
         return NULL;
     }
 
+    system("clear");
+    Menu();
+
+    printf("Stack created with: \n");
+
     stack->size = 0u;
     stack->capacity = capacity;
     stack->data = data;
@@ -31,6 +52,7 @@ stack_t *createStack(uint32_t capacity)
 
 stack_t *freeStack(stack_t *stack)
 {
+
     if(NULL != stack) 
     {
         if(NULL != stack->data)  
@@ -39,7 +61,11 @@ stack_t *freeStack(stack_t *stack)
         }
 
         free(stack);
+        printf("Stack is free!\n");
     }
+    
+    system("clear");
+    Menu();
 }
 
 bool isFull(stack_t *stack) 
@@ -52,8 +78,15 @@ bool isEmpty(stack_t *stack)
     return (0u == stack->size);
 }
 
-void push(stack_t *stack, value_type_t value)
+void push(stack_t *stack)
 {
+    system("clear");
+    Menu();
+    
+    value_type_t value;
+    printf("Value: ");
+    scanf("%f", &value);
+
     if(true == isFull(stack)) 
     {
         return;
@@ -61,18 +94,19 @@ void push(stack_t *stack, value_type_t value)
 
     stack->data[stack->size++] = value;
 
-    printf("Push: %.2f \n", stack->data[stack->size -1]);
+    printf("Push : %.2f \n", stack->data[stack->size -1]);
 }
 
 value_type_t pop(stack_t *stack)
 {
+
     if(true==isEmpty(stack)) 
     {
         printf("Stack is empty! \n");
         return NO_VALUE;
     }
 
-    printf("Pop: %.2f \n", stack->data[stack->size -1]);
+    printf("Pop : %.2f \n", stack->data[stack->size -1]);
 
     return stack->data[stack->size--];    
 }
@@ -81,13 +115,11 @@ value_type_t top(stack_t *stack)
 {
     if(true == isEmpty(stack)) 
     {
-        printf("Stack is empty! \n");
-        return NO_VALUE;
+        printf("Stack is empty! \n"); 
+        return NO_VALUE;   
     }
 
-    printf("\nTop value of stack is: %f", top(stack));
-
-    return stack->data[stack->size - 1u];
+    printf("Top value of stack: %f \n", stack->data[stack->size - 1u]);
 }
 
 void printStack(stack_t *stack)

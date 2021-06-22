@@ -55,7 +55,7 @@ void push(stack_t *stack);
 
 value_type_t pop(stack_t *stack);
 
-value_type_t top(stack_t *stack);
+void top(stack_t *stack);
 
 void printStack(stack_t *stack);
 

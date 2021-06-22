@@ -41,12 +41,12 @@ stack_t *createStack(uint32_t capacity)
     system("clear");
     Menu();
 
-    printf("Stack created with: \n");
-
     stack->size = 0u;
     stack->capacity = capacity;
     stack->data = data;
-    
+
+    printf("Stack created with a capacity of %u. \n", stack->capacity);
+
     return stack;
 }
 
@@ -61,11 +61,12 @@ stack_t *freeStack(stack_t *stack)
         }
 
         free(stack);
-        printf("Stack is free!\n");
     }
     
     system("clear");
     Menu();
+
+    printf("Stack is free!\n");
 }
 
 bool isFull(stack_t *stack) 
@@ -98,7 +99,9 @@ void push(stack_t *stack)
 }
 
 value_type_t pop(stack_t *stack)
-{
+{   
+    system("clear");
+    Menu();
 
     if(true==isEmpty(stack)) 
     {
@@ -111,26 +114,32 @@ value_type_t pop(stack_t *stack)
     return stack->data[stack->size--];    
 }
 
-value_type_t top(stack_t *stack)
+void top(stack_t *stack)
 {
+    system("clear");
+    Menu();
+
     if(true == isEmpty(stack)) 
     {
         printf("Stack is empty! \n"); 
-        return NO_VALUE;   
+        return;   
     }
 
     printf("Top value of stack: %f \n", stack->data[stack->size - 1u]);
 }
 
 void printStack(stack_t *stack)
-{
+{   
+    system("clear");
+    Menu();
+    
     if(NULL == stack) 
     {
         printf("Stack is empty! \n");
         return;
     }
 
-    printf("\nStack contains %u elements with a capacity of %u. \n", stack->size, stack->capacity);
+    printf("Stack contains %u elements with a capacity of %u. \n", stack->size, stack->capacity);
 
     for (int32_t i = stack->size - 1; i >= 0; i--)
     {

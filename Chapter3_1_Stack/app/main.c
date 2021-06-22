@@ -36,8 +36,7 @@ int main(void) {
                 break;
             
             case (STACKTOP):
-                printf("DANGER \n");
-                //top(stack);
+                top(stack);
                 break;
             
             case (PRINTSTACK):

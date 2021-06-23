@@ -16,23 +16,20 @@ int main(void) {
     node_t *c = createNode(3.0f);
     node_t *d = createNode(4.0f);
 
-    pushFront(list, a);
-    pushFront(list, b);
-    pushBack(list, c);
-    pushFront(list, d);
+    node_t *e = createNode(5.0f);
 
+    pushBack(list, a);
+    pushBack(list, b);
+    pushBack(list, c);
+    pushBack(list, d);
+
+    popNode(list, 1);
     printList(list);
 
-
-
-    popBack(list);
-    popFront(list);
-
+    pushNode(list, e, 1);
     printList(list);
 
     list = freeList(list);
-
-   
 
 
     return 0;

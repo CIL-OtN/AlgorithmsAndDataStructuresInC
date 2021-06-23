@@ -172,6 +172,109 @@ value_type_t popFront(list_t *list)
     return value;
 }
 
+
+value_type_t popNode(list_t *list, uint32_t idx)
+{
+    if (NULL == list || idx >= list->size)
+    {
+        return NO_VALUE;
+    }
+
+    if (0u == idx)
+    {
+        return popFront(list);
+    }
+
+    if ((list->size - 1u) == idx)
+    {
+        return popBack(list);
+    }
+
+    uint32_t current_idx = 0u;
+    node_t *node_at_idx = list->front;
+
+    while (current_idx < idx)
+    {
+        node_at_idx = node_at_idx->next;
+
+        current_idx++;
+    }
+
+    value_type_t value = *(node_at_idx->value);
+
+    node_at_idx->next->prev = node_at_idx->prev;
+    node_at_idx->prev->next = node_at_idx->next;
+
+    list->size--;
+
+    node_at_idx = freeNode(node_at_idx);
+
+    return value;
+}
+
+void pushNode(list_t *list, node_t *node, uint32_t idx) 
+{
+    if(NULL == list || NULL == node || idx >= list->size)
+    {
+        return;
+    }
+
+    if(0u == idx) 
+    {
+        return pushFront(list, node);
+    }
+
+    if(list->size -1u == idx) 
+    {
+        return pushBack(list, node);
+    }
+
+    uint32_t current_idx = 0u;
+    node_t *node_at_idx = list->front;
+
+    while (current_idx < idx)
+    {
+        node_at_idx = node_at_idx->next;
+        current_idx++;
+    }
+
+    node->prev = node_at_idx;
+    node->next = node_at_idx->next;
+    node_at_idx->next->prev = node;
+    node_at_idx->next = node;
+
+    list->size++;
+}
+
+value_type_t valueAtIdx(list_t *list, uint32_t idx) 
+{
+    if(NULL == list || idx >= list->size)
+    {
+        return NO_VALUE;
+    }
+
+    if(0u == idx) 
+    {
+        return *(list->front->value);
+    }
+
+    if(list->size -1u == idx) 
+    {
+        return *(list->back->value);
+    }
+
+    uint32_t current_idx = 0u;
+    node_t *node_at_idx = list->front;
+
+    while (current_idx < list->size)
+    {
+        node_at_idx = node_at_idx->next;
+        current_idx++;
+    }
+
+    return *(node_at_idx->value);
+}
+
 void printList(list_t *list)
 {
     if(NULL == list) 

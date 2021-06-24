@@ -14,18 +14,18 @@ int main(void) {
 
     queue_t *queue = createQueue(capacity);
 
-    push(queue, 5.0f);
-    push(queue, 6.0f);
+    push(queue, 2.0f);
+    push(queue, 2.0f);
+    push(queue, 3.0f);
     push(queue, 7.0f);
-    push(queue, 8.0f);
 
     pop(queue);
 
+    printf("Front of queue: %f \n", front(queue));
+    printf("Back of queue : %f \n", back(queue));
+
 
     printQueue(queue);
-
-    // printf("Front of queue: %f \n", front(queue));
-    // printf("Back of queue : %f \n", back(queue));
 
     queue = freeQueue(queue);
 

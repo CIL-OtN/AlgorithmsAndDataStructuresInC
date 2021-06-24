@@ -1,25 +1,37 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
+#include <string.h>
 
+struct Student 
+{
+    char name[16];
+    char nachname[16];
+    char matrikelnr[16];
 
-// Debug F7
-// Cmake launch Shift + F5
+    struct Student *next;
+};
 
 int main() {
 
     system("clear");
 
-    uint32_t matrix[3][2] = { {0, 1}, {2, 3}, {4, 5} };
+    struct Student *Mathe[1];
+    struct Student *startzeiger, *eintrag;
 
-    for(uint32_t i = 0; i < 3; i++) 
+    // Initialize math-list
+    strcpy(Mathe[0]->name, "Johannes");
+    strcpy(Mathe[0]->nachname, "Mueller");
+    strcpy(Mathe[0]->matrikelnr, "123456");
+    Mathe[0]->next = NULL;
+
+    // Mathe[0]->next = &Mathe[1];
+
+    startzeiger = Mathe[0];
+
+    for(eintrag = startzeiger; eintrag != NULL; eintrag = eintrag->next) 
     {
-        for(uint32_t j = 0; j < 2; j++) 
-        {
-            printf("%u, 0x%p \n", matrix[i][j], (void *)&matrix[i][j]);
-        }    
+        printf("%s %s %s \n", eintrag->name, eintrag->nachname, eintrag->matrikelnr);
     }
-
 
     return 0;
 }

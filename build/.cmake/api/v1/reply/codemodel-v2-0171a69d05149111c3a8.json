@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "Chapter5_1_DLinkedList",
+					"build" : "Chapter4_1_Queue",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "Chapter5_1_DLinkedList"
+					"source" : "Chapter4_1_Queue"
 				},
 				{
-					"build" : "Chapter5_1_DLinkedList/src",
+					"build" : "Chapter4_1_Queue/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter5_1_DLinkedList/src",
+					"source" : "Chapter4_1_Queue/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "Chapter5_1_DLinkedList/app",
+					"build" : "Chapter4_1_Queue/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter5_1_DLinkedList/app",
+					"source" : "Chapter4_1_Queue/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "Chapter5_1_DLinkedList_Project",
+					"name" : "Chapter4_1_Queue_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "Chapter5_1_DLinkedList_Executable::@62ae82393dc8f9421b4c",
-					"jsonFile" : "target-Chapter5_1_DLinkedList_Executable-Debug-27aa4a768e4254ce97d4.json",
-					"name" : "Chapter5_1_DLinkedList_Executable",
+					"id" : "Chapter4_1_Queue_Executable::@e6f0d5110f10ba18491d",
+					"jsonFile" : "target-Chapter4_1_Queue_Executable-Debug-1eac67444e75eec1e68d.json",
+					"name" : "Chapter4_1_Queue_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "Chapter5_1_DLinkedList_MyLib::@82432d038285d00e8ce6",
-					"jsonFile" : "target-Chapter5_1_DLinkedList_MyLib-Debug-05e670dfb35ca21821cf.json",
-					"name" : "Chapter5_1_DLinkedList_MyLib",
+					"id" : "Chapter4_1_Queue_MyLib::@f8f92ab3612cfed03e6d",
+					"jsonFile" : "target-Chapter4_1_Queue_MyLib-Debug-2436ca792b02fd8b5d15.json",
+					"name" : "Chapter4_1_Queue_MyLib",
 					"projectIndex" : 1
 				}
 			]

@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Chapter5_1_DLinkedList_MyLib
+# Target rules for targets named Chapter4_1_Queue_MyLib
 
 # Build rule for target.
-Chapter5_1_DLinkedList_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_DLinkedList_MyLib
-.PHONY : Chapter5_1_DLinkedList_MyLib
+Chapter4_1_Queue_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_1_Queue_MyLib
+.PHONY : Chapter4_1_Queue_MyLib
 
 # fast build rule for target.
-Chapter5_1_DLinkedList_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\src\CMakeFiles\Chapter5_1_DLinkedList_MyLib.dir\build.make Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/build
-.PHONY : Chapter5_1_DLinkedList_MyLib/fast
+Chapter4_1_Queue_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter4_1_Queue\src\CMakeFiles\Chapter4_1_Queue_MyLib.dir\build.make Chapter4_1_Queue/src/CMakeFiles/Chapter4_1_Queue_MyLib.dir/build
+.PHONY : Chapter4_1_Queue_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named Chapter5_1_DLinkedList_Executable
+# Target rules for targets named Chapter4_1_Queue_Executable
 
 # Build rule for target.
-Chapter5_1_DLinkedList_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_DLinkedList_Executable
-.PHONY : Chapter5_1_DLinkedList_Executable
+Chapter4_1_Queue_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_1_Queue_Executable
+.PHONY : Chapter4_1_Queue_Executable
 
 # fast build rule for target.
-Chapter5_1_DLinkedList_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_DLinkedList\app\CMakeFiles\Chapter5_1_DLinkedList_Executable.dir\build.make Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/build
-.PHONY : Chapter5_1_DLinkedList_Executable/fast
+Chapter4_1_Queue_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter4_1_Queue\app\CMakeFiles\Chapter4_1_Queue_Executable.dir\build.make Chapter4_1_Queue/app/CMakeFiles/Chapter4_1_Queue_Executable.dir/build
+.PHONY : Chapter4_1_Queue_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter5_1_DLinkedList_Executable
-	@echo ... Chapter5_1_DLinkedList_MyLib
+	@echo ... Chapter4_1_Queue_Executable
+	@echo ... Chapter4_1_Queue_MyLib
 .PHONY : help
 
 

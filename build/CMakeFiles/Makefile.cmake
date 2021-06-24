@@ -25,9 +25,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
-  "../Chapter5_1_DLinkedList/CMakeLists.txt"
-  "../Chapter5_1_DLinkedList/app/CMakeLists.txt"
-  "../Chapter5_1_DLinkedList/src/CMakeLists.txt"
+  "../Chapter4_1_Queue/CMakeLists.txt"
+  "../Chapter4_1_Queue/app/CMakeLists.txt"
+  "../Chapter4_1_Queue/src/CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeSystem.cmake"
@@ -42,13 +42,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_1_DLinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_1_DLinkedList/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_1_DLinkedList/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter4_1_Queue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter4_1_Queue/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter4_1_Queue/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Chapter5_1_DLinkedList/src/CMakeFiles/Chapter5_1_DLinkedList_MyLib.dir/DependInfo.cmake"
-  "Chapter5_1_DLinkedList/app/CMakeFiles/Chapter5_1_DLinkedList_Executable.dir/DependInfo.cmake"
+  "Chapter4_1_Queue/src/CMakeFiles/Chapter4_1_Queue_MyLib.dir/DependInfo.cmake"
+  "Chapter4_1_Queue/app/CMakeFiles/Chapter4_1_Queue_Executable.dir/DependInfo.cmake"
   )

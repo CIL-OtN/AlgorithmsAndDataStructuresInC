@@ -14,9 +14,11 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter4_0_Queue")
 
-# add_subdirectory("Chapter4_1_Queue")
+add_subdirectory("Chapter4_1_Queue")
 
-add_subdirectory("Chapter5_1_DLinkedList")
+# add_subdirectory("Chapter5_0_LinkedList")
+
+# add_subdirectory("Chapter5_1_DLinkedList")
 
 # add_subdirectory("")
 

@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Chapter6_1_Hash_Table_MyLib
+# Target rules for targets named Chapter9_Graph_MyLib
 
 # Build rule for target.
-Chapter6_1_Hash_Table_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_1_Hash_Table_MyLib
-.PHONY : Chapter6_1_Hash_Table_MyLib
+Chapter9_Graph_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter9_Graph_MyLib
+.PHONY : Chapter9_Graph_MyLib
 
 # fast build rule for target.
-Chapter6_1_Hash_Table_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter7_0_BinarySearchTree\src\CMakeFiles\Chapter6_1_Hash_Table_MyLib.dir\build.make Chapter7_0_BinarySearchTree/src/CMakeFiles/Chapter6_1_Hash_Table_MyLib.dir/build
-.PHONY : Chapter6_1_Hash_Table_MyLib/fast
+Chapter9_Graph_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter9_Graph\src\CMakeFiles\Chapter9_Graph_MyLib.dir\build.make Chapter9_Graph/src/CMakeFiles/Chapter9_Graph_MyLib.dir/build
+.PHONY : Chapter9_Graph_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named Chapter6_1_Hash_Table_Executable
+# Target rules for targets named Chapter9_Graph_Executable
 
 # Build rule for target.
-Chapter6_1_Hash_Table_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_1_Hash_Table_Executable
-.PHONY : Chapter6_1_Hash_Table_Executable
+Chapter9_Graph_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter9_Graph_Executable
+.PHONY : Chapter9_Graph_Executable
 
 # fast build rule for target.
-Chapter6_1_Hash_Table_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter7_0_BinarySearchTree\app\CMakeFiles\Chapter6_1_Hash_Table_Executable.dir\build.make Chapter7_0_BinarySearchTree/app/CMakeFiles/Chapter6_1_Hash_Table_Executable.dir/build
-.PHONY : Chapter6_1_Hash_Table_Executable/fast
+Chapter9_Graph_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter9_Graph\app\CMakeFiles\Chapter9_Graph_Executable.dir\build.make Chapter9_Graph/app/CMakeFiles/Chapter9_Graph_Executable.dir/build
+.PHONY : Chapter9_Graph_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter6_1_Hash_Table_Executable
-	@echo ... Chapter6_1_Hash_Table_MyLib
+	@echo ... Chapter9_Graph_Executable
+	@echo ... Chapter9_Graph_MyLib
 .PHONY : help
 
 

@@ -24,7 +24,19 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter6_1_Hash_Table")
 
-add_subdirectory("Chapter7_0_BinarySearchTree")
+# add_subdirectory("Chapter7_0_BinarySearchTree")
+
+# add_subdirectory("Chapter8_Min_Max_Heap")
+
+add_subdirectory("Chapter9_Graph")
+
+# add_subdirectory("")
+
+# add_subdirectory("")
+
+# add_subdirectory("")
+
+# add_subdirectory("")
 
 # add_subdirectory("")
 

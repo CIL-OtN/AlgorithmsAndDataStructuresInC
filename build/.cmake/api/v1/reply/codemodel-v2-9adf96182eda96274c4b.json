@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "Chapter7_0_BinarySearchTree",
+					"build" : "Chapter9_Graph",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "Chapter7_0_BinarySearchTree"
+					"source" : "Chapter9_Graph"
 				},
 				{
-					"build" : "Chapter7_0_BinarySearchTree/src",
+					"build" : "Chapter9_Graph/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter7_0_BinarySearchTree/src",
+					"source" : "Chapter9_Graph/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "Chapter7_0_BinarySearchTree/app",
+					"build" : "Chapter9_Graph/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter7_0_BinarySearchTree/app",
+					"source" : "Chapter9_Graph/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "Chapter6_1_Hash_Table_Project",
+					"name" : "Chapter9_Graph_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "Chapter6_1_Hash_Table_Executable::@9295eb3ae48bd9832754",
-					"jsonFile" : "target-Chapter6_1_Hash_Table_Executable-Debug-9928ad6446cac5e1a826.json",
-					"name" : "Chapter6_1_Hash_Table_Executable",
+					"id" : "Chapter9_Graph_Executable::@0efcec6761322eb91f0b",
+					"jsonFile" : "target-Chapter9_Graph_Executable-Debug-3a36556a22cdc2cfbd43.json",
+					"name" : "Chapter9_Graph_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "Chapter6_1_Hash_Table_MyLib::@8700744d64afe04f191a",
-					"jsonFile" : "target-Chapter6_1_Hash_Table_MyLib-Debug-e47f56101b1a98e5d96c.json",
-					"name" : "Chapter6_1_Hash_Table_MyLib",
+					"id" : "Chapter9_Graph_MyLib::@818dad350bb943735718",
+					"jsonFile" : "target-Chapter9_Graph_MyLib-Debug-1704586aa61f722b4728.json",
+					"name" : "Chapter9_Graph_MyLib",
 					"projectIndex" : 1
 				}
 			]

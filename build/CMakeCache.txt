@@ -272,6 +272,18 @@ Chapter6_1_Hash_Table_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/Gi
 //Value Computed by CMake
 Chapter6_1_Hash_Table_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter7_0_BinarySearchTree
 
+//Value Computed by CMake
+Chapter8_Min_Max_Heap_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter8_Min_Max_Heap
+
+//Value Computed by CMake
+Chapter8_Min_Max_Heap_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter8_Min_Max_Heap
+
+//Value Computed by CMake
+Chapter9_Graph_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter9_Graph
+
+//Value Computed by CMake
+Chapter9_Graph_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter9_Graph
+
 
 ########################
 # INTERNAL cache entries

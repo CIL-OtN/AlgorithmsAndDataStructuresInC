@@ -15,6 +15,8 @@ int main(void) {
     node_t *node3 = createBST(3);
     node_t *node4 = createBST(4);
     
+    printBST(root);
+
     root = freeBST(root);
 
     return 0;

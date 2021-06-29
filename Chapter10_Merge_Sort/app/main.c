@@ -1,37 +1,102 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdint.h>
 
-struct Student 
+typedef float value_type_t;
+
+void printArray(value_type_t arr[], uint32_t size) 
 {
-    char name[16];
-    char nachname[16];
-    char matrikelnr[16];
+    for (uint32_t i = 0u; i < size; i++)
+    {
+        printf("%.2f ", arr[i]);
+    }
+    printf("\n");
+}
 
-    struct Student *next;
-};
+void merge(value_type_t arr[], uint32_t start, uint32_t mid, uint32_t end) 
+{
+    uint32_t num1 = mid - start + 1u;
+    uint32_t num2 = end - mid;
+
+    value_type_t *arr1 = (value_type_t *)malloc(num1 * sizeof(value_type_t));
+    value_type_t *arr2 = (value_type_t *)malloc(num2 * sizeof(value_type_t));
+    
+    for(uint32_t i = 0u; i < num1; i++) 
+    {
+        arr1[i] = arr[start + i];
+    }
+
+    for(uint32_t i = 0u; i < num2; i++) 
+    {
+        arr2[i] = arr[mid + 1u + i];
+    }
+
+    uint32_t i = 0u;
+    uint32_t j = 0u;
+    uint32_t k = start;
+
+    while(i < num1 && j < num2) 
+    {
+        if(arr1[i] <= arr2[j]) 
+        {
+            arr[k] = arr1[i];
+            i++;
+        }
+        else 
+        {
+            arr[k] = arr2[j];
+            j++;
+        }
+
+        k++;
+    }
+
+    while(i < num1) 
+    {
+        arr[k] = arr1[i];
+        i++;
+        k++;
+    }
+
+    while(j < num2) 
+    {
+        arr[k] = arr2[j];
+        j++;
+        k++;
+    }
+
+    free(arr1);
+    free(arr2);
+}
+
+void divide(value_type_t arr[], uint32_t start, uint32_t end) 
+{
+    if(start < end)
+    {
+        uint32_t mid = (start + end) / 2u;
+        divide(arr, start, mid);
+        divide(arr, mid + 1u, end);
+        merge(arr, start, mid, end);
+    }
+}
+
+void mergeSort(value_type_t arr[], uint32_t size)
+{
+    divide(arr, 0u, size - 1u);
+}
 
 int main() {
 
     system("clear");
 
-    struct Student *Mathe[1];
-    struct Student *startzeiger, *eintrag;
+    value_type_t data[] = {-10, 20, -20, 40, 12};
 
-    // Initialize math-list
-    strcpy(Mathe[0]->name, "Johannes");
-    strcpy(Mathe[0]->nachname, "Mueller");
-    strcpy(Mathe[0]->matrikelnr, "123456");
-    Mathe[0]->next = NULL;
+    printf("Unsorted array: ");
+    printArray(data, 5u);
 
-    // Mathe[0]->next = &Mathe[1];
-
-    startzeiger = Mathe[0];
-
-    for(eintrag = startzeiger; eintrag != NULL; eintrag = eintrag->next) 
-    {
-        printf("%s %s %s \n", eintrag->name, eintrag->nachname, eintrag->matrikelnr);
-    }
+    printf("Merge sort    : ");
+    mergeSort(data, 5u);
+    printArray(data, 5u);
 
     return 0;
 }

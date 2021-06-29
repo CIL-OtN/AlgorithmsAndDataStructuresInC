@@ -23,7 +23,7 @@ void swap(value_type_t *a, value_type_t *b)
 
 void bubbleSort1(value_type_t arr[], uint32_t size) 
 {
-    // from small to big numbers
+    // ascending sorted
     for (uint32_t i = 0u; i < size-1u; i++)
     {
         for (uint32_t j = 0u; j < size - i -1u; j++) 
@@ -38,7 +38,7 @@ void bubbleSort2(value_type_t arr[], uint32_t size) {
 
 	int i, temp;
 
-    // from big to small numbers
+    // sorted in descending order
 	while(size--) 
     {
 		for(i=0; i < size; i++)
@@ -57,7 +57,6 @@ int main()
     value_type_t data[] = {-10, 20, -20, 40, 12};
 
     printf("Unsorted array: ");
-
     printArray(data, 5u);
 
     printf("Bubble sort 1 : ");

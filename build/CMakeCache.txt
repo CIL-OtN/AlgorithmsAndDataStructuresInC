@@ -243,6 +243,12 @@ Chapter10_Merge_Sort_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/Git
 Chapter10_Merge_Sort_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Merge_Sort
 
 //Value Computed by CMake
+Chapter10_Quick_Sort_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter10_Quick_Sort
+
+//Value Computed by CMake
+Chapter10_Quick_Sort_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Quick_Sort
+
+//Value Computed by CMake
 Chapter1_Intro_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter1_Intro
 
 //Value Computed by CMake

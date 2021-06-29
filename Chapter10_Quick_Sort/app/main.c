@@ -1,37 +1,67 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdint.h>
 
-struct Student 
+typedef float value_type_t;
+
+void printArray(value_type_t arr[], uint32_t size) 
 {
-    char name[16];
-    char nachname[16];
-    char matrikelnr[16];
+    for (uint32_t i = 0u; i < size; i++)
+    {
+        printf("%.2f ", arr[i]);
+    }
+    printf("\n");
+}
 
-    struct Student *next;
-};
+void swap(value_type_t *a, value_type_t *b) 
+{
+    value_type_t temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int32_t partition(value_type_t arr[], int32_t start, int32_t end) 
+{
+    value_type_t pivot = arr[end];
+    int32_t i = start - 1;
+
+    for (int32_t j = start; j <= end - 1; j++)
+    {
+        if(arr[j] <= pivot) 
+        {
+            i++;
+            swap(&arr[i], &arr[j]);
+        }
+    }
+    
+    swap(&arr[i + 1], &arr[end]);
+
+    return i + 1;
+}
+
+void quickSort(value_type_t arr[], int32_t start, int32_t end) 
+{
+    if(start < end)
+    {
+        int32_t p = partition(arr, start, end);
+
+        quickSort(arr, start, p - 1);
+        quickSort(arr, p + 1, end);
+    }
+}
 
 int main() {
 
     system("clear");
 
-    struct Student *Mathe[1];
-    struct Student *startzeiger, *eintrag;
 
-    // Initialize math-list
-    strcpy(Mathe[0]->name, "Johannes");
-    strcpy(Mathe[0]->nachname, "Mueller");
-    strcpy(Mathe[0]->matrikelnr, "123456");
-    Mathe[0]->next = NULL;
+    value_type_t data[] = {-10, 20, -20, 40, 12};
 
-    // Mathe[0]->next = &Mathe[1];
+    printArray(data, 5);
 
-    startzeiger = Mathe[0];
-
-    for(eintrag = startzeiger; eintrag != NULL; eintrag = eintrag->next) 
-    {
-        printf("%s %s %s \n", eintrag->name, eintrag->nachname, eintrag->matrikelnr);
-    }
+    quickSort(data, 0u, 4u);
+    
+    printArray(data, 5);
 
     return 0;
 }

@@ -1258,6 +1258,30 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Merge_Sort"
 		},
 		{
+			"name" : "Chapter10_Quick_Sort_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter10_Quick_Sort"
+		},
+		{
+			"name" : "Chapter10_Quick_Sort_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Quick_Sort"
+		},
+		{
 			"name" : "Chapter1_Intro_Project_BINARY_DIR",
 			"properties" : 
 			[

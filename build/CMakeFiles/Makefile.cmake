@@ -25,9 +25,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
-  "../Chapter10_Merge_Sort/CMakeLists.txt"
-  "../Chapter10_Merge_Sort/app/CMakeLists.txt"
-  "../Chapter10_Merge_Sort/src/CMakeLists.txt"
+  "../Chapter10_Quick_Sort/CMakeLists.txt"
+  "../Chapter10_Quick_Sort/app/CMakeLists.txt"
+  "../Chapter10_Quick_Sort/src/CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeSystem.cmake"
@@ -42,13 +42,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter10_Merge_Sort/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter10_Merge_Sort/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter10_Merge_Sort/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter10_Quick_Sort/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter10_Quick_Sort/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter10_Quick_Sort/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Chapter10_Merge_Sort/src/CMakeFiles/Chapter10_Merge_Sort_MyLib.dir/DependInfo.cmake"
-  "Chapter10_Merge_Sort/app/CMakeFiles/Chapter10_Merge_Sort_Executable.dir/DependInfo.cmake"
+  "Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/DependInfo.cmake"
+  "Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/DependInfo.cmake"
   )

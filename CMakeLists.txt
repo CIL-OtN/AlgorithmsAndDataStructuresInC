@@ -28,13 +28,13 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter8_Min_Max_Heap")
 
-add_subdirectory("Chapter9_Graph")
+# add_subdirectory("Chapter9_Graph")
 
-# add_subdirectory("")
+add_subdirectory("Chapter10_Bubble_Sort")
 
-# add_subdirectory("")
+# add_subdirectory("Chapter10_Merge_Sort")
 
-# add_subdirectory("")
+# add_subdirectory("Chapter10_Quick_Sort")
 
 # add_subdirectory("")
 

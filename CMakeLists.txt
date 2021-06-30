@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
-# add_subdirectory("BasicStructure")
+add_subdirectory("Base")
 
 # add_subdirectory("Chapter1_Intro")
 
@@ -34,7 +34,7 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter10_Merge_Sort")
 
-add_subdirectory("Chapter10_Quick_Sort")
+# add_subdirectory("Chapter10_Quick_Sort")
 
 # add_subdirectory("")
 

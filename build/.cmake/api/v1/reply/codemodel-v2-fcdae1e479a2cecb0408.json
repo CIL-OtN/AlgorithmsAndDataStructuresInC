@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "Chapter10_Quick_Sort",
+					"build" : "Base",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "Chapter10_Quick_Sort"
+					"source" : "Base"
 				},
 				{
-					"build" : "Chapter10_Quick_Sort/src",
+					"build" : "Base/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter10_Quick_Sort/src",
+					"source" : "Base/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "Chapter10_Quick_Sort/app",
+					"build" : "Base/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter10_Quick_Sort/app",
+					"source" : "Base/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "Chapter10_Quick_Sort_Project",
+					"name" : "Base_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "Chapter10_Quick_Sort_Executable::@8bf20476b7f0d8bba056",
-					"jsonFile" : "target-Chapter10_Quick_Sort_Executable-Debug-b9cbabe81df0cd16299a.json",
-					"name" : "Chapter10_Quick_Sort_Executable",
+					"id" : "Base_Executable::@8cad7ef1fe6138a37f42",
+					"jsonFile" : "target-Base_Executable-Debug-3a2620ae361ca00a3fec.json",
+					"name" : "Base_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "Chapter10_Quick_Sort_MyLib::@0ad67a9d0cd1be5ecc98",
-					"jsonFile" : "target-Chapter10_Quick_Sort_MyLib-Debug-71a0e69bedd4bb095e96.json",
-					"name" : "Chapter10_Quick_Sort_MyLib",
+					"id" : "Base_MyLib::@39f3fe8464e17c49663e",
+					"jsonFile" : "target-Base_MyLib-Debug-6544ba036b2892f0ffec.json",
+					"name" : "Base_MyLib",
 					"projectIndex" : 1
 				}
 			]

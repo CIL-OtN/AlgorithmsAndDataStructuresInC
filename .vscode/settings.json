@@ -5,6 +5,9 @@
   "C_Cpp_Runner.makePath": "C:\\cygwin64\\bin\\make.exe",
   "files.associations": {
     "hashtable.h": "c",
-    "binarysearchtree.h": "c"
+    "binarysearchtree.h": "c",
+    "math.h": "c",
+    "cmath": "c",
+    "*.tcc": "c"
   }
 }

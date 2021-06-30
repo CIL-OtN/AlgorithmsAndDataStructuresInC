@@ -26,6 +26,30 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC"
 		},
 		{
+			"name" : "Base_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Base"
+		},
+		{
+			"name" : "Base_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Base"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[

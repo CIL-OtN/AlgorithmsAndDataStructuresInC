@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter10_Quick_Sort/src",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter10_Quick_Sort_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter10_Quick_Sort\\src\\my_lib.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Quick_Sort/src/my_lib.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Base/src",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Base_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Base_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Base\\src\\my_lib.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Base/src/my_lib.c"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter10_Quick_Sort/app",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter10_Quick_Sort_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Chapter10_Quick_Sort_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter10_Quick_Sort\\app\\main.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter10_Quick_Sort/app/main.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Base/app",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Base_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Base_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Base\\app\\main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Base/app/main.c"
 }
 ]

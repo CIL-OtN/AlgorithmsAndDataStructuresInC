@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Chapter10_Quick_Sort/all
+all: Base/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Chapter10_Quick_Sort/preinstall
+preinstall: Base/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Chapter10_Quick_Sort/clean
+clean: Base/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Chapter10_Quick_Sort
+# Directory level rules for directory Base
 
 # Recursive "all" directory target.
-Chapter10_Quick_Sort/all: Chapter10_Quick_Sort/src/all
-Chapter10_Quick_Sort/all: Chapter10_Quick_Sort/app/all
-.PHONY : Chapter10_Quick_Sort/all
+Base/all: Base/src/all
+Base/all: Base/app/all
+.PHONY : Base/all
 
 # Recursive "preinstall" directory target.
-Chapter10_Quick_Sort/preinstall: Chapter10_Quick_Sort/src/preinstall
-Chapter10_Quick_Sort/preinstall: Chapter10_Quick_Sort/app/preinstall
-.PHONY : Chapter10_Quick_Sort/preinstall
+Base/preinstall: Base/src/preinstall
+Base/preinstall: Base/app/preinstall
+.PHONY : Base/preinstall
 
 # Recursive "clean" directory target.
-Chapter10_Quick_Sort/clean: Chapter10_Quick_Sort/src/clean
-Chapter10_Quick_Sort/clean: Chapter10_Quick_Sort/app/clean
-.PHONY : Chapter10_Quick_Sort/clean
+Base/clean: Base/src/clean
+Base/clean: Base/app/clean
+.PHONY : Base/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter10_Quick_Sort/app
+# Directory level rules for directory Base/app
 
 # Recursive "all" directory target.
-Chapter10_Quick_Sort/app/all: Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/all
-.PHONY : Chapter10_Quick_Sort/app/all
+Base/app/all: Base/app/CMakeFiles/Base_Executable.dir/all
+.PHONY : Base/app/all
 
 # Recursive "preinstall" directory target.
-Chapter10_Quick_Sort/app/preinstall:
-.PHONY : Chapter10_Quick_Sort/app/preinstall
+Base/app/preinstall:
+.PHONY : Base/app/preinstall
 
 # Recursive "clean" directory target.
-Chapter10_Quick_Sort/app/clean: Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/clean
-.PHONY : Chapter10_Quick_Sort/app/clean
+Base/app/clean: Base/app/CMakeFiles/Base_Executable.dir/clean
+.PHONY : Base/app/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter10_Quick_Sort/src
+# Directory level rules for directory Base/src
 
 # Recursive "all" directory target.
-Chapter10_Quick_Sort/src/all: Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/all
-.PHONY : Chapter10_Quick_Sort/src/all
+Base/src/all: Base/src/CMakeFiles/Base_MyLib.dir/all
+.PHONY : Base/src/all
 
 # Recursive "preinstall" directory target.
-Chapter10_Quick_Sort/src/preinstall:
-.PHONY : Chapter10_Quick_Sort/src/preinstall
+Base/src/preinstall:
+.PHONY : Base/src/preinstall
 
 # Recursive "clean" directory target.
-Chapter10_Quick_Sort/src/clean: Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/clean
-.PHONY : Chapter10_Quick_Sort/src/clean
+Base/src/clean: Base/src/CMakeFiles/Base_MyLib.dir/clean
+.PHONY : Base/src/clean
 
 #=============================================================================
-# Target rules for target Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir
+# Target rules for target Base/src/CMakeFiles/Base_MyLib.dir
 
 # All Build rule for target.
-Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\src\CMakeFiles\Chapter10_Quick_Sort_MyLib.dir\build.make Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\src\CMakeFiles\Chapter10_Quick_Sort_MyLib.dir\build.make Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter10_Quick_Sort_MyLib"
-.PHONY : Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/all
+Base/src/CMakeFiles/Base_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Base_MyLib"
+.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/rule: cmake_check_build_system
+Base/src/CMakeFiles/Base_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/CMakeFiles/Base_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/rule
+.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/rule
 
 # Convenience name for target.
-Chapter10_Quick_Sort_MyLib: Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/rule
-.PHONY : Chapter10_Quick_Sort_MyLib
+Base_MyLib: Base/src/CMakeFiles/Base_MyLib.dir/rule
+.PHONY : Base_MyLib
 
 # clean rule for target.
-Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\src\CMakeFiles\Chapter10_Quick_Sort_MyLib.dir\build.make Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/clean
-.PHONY : Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/clean
+Base/src/CMakeFiles/Base_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/clean
+.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir
+# Target rules for target Base/app/CMakeFiles/Base_Executable.dir
 
 # All Build rule for target.
-Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/all: Chapter10_Quick_Sort/src/CMakeFiles/Chapter10_Quick_Sort_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\app\CMakeFiles\Chapter10_Quick_Sort_Executable.dir\build.make Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\app\CMakeFiles\Chapter10_Quick_Sort_Executable.dir\build.make Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter10_Quick_Sort_Executable"
-.PHONY : Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/all
+Base/app/CMakeFiles/Base_Executable.dir/all: Base/src/CMakeFiles/Base_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Base_Executable"
+.PHONY : Base/app/CMakeFiles/Base_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/rule: cmake_check_build_system
+Base/app/CMakeFiles/Base_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/app/CMakeFiles/Base_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/rule
+.PHONY : Base/app/CMakeFiles/Base_Executable.dir/rule
 
 # Convenience name for target.
-Chapter10_Quick_Sort_Executable: Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/rule
-.PHONY : Chapter10_Quick_Sort_Executable
+Base_Executable: Base/app/CMakeFiles/Base_Executable.dir/rule
+.PHONY : Base_Executable
 
 # clean rule for target.
-Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter10_Quick_Sort\app\CMakeFiles\Chapter10_Quick_Sort_Executable.dir\build.make Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/clean
-.PHONY : Chapter10_Quick_Sort/app/CMakeFiles/Chapter10_Quick_Sort_Executable.dir/clean
+Base/app/CMakeFiles/Base_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/clean
+.PHONY : Base/app/CMakeFiles/Base_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

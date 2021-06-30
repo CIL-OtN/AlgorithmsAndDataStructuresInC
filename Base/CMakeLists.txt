@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PROJECT "BasicStructure")
+set(PROJECT "Base")
 
 project("${PROJECT}_Project" VERSION 1.0.0 LANGUAGES C)
 

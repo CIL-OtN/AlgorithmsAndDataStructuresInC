@@ -20,6 +20,12 @@ AdvancedCProgrammingCourse_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHu
 //Value Computed by CMake
 AdvancedCProgrammingCourse_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC
 
+//Value Computed by CMake
+Base_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Base
+
+//Value Computed by CMake
+Base_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Base
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/addr2line.exe
 

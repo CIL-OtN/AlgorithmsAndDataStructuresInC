@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Chapter11_Array_In_Data_Structure",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Chapter11_Array_In_Data_Structure"
+				},
+				{
+					"build" : "Chapter11_Array_In_Data_Structure/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter11_Array_In_Data_Structure/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Chapter11_Array_In_Data_Structure/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter11_Array_In_Data_Structure/app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AdvancedCProgrammingCourse"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "Chapter11_Array_In_Data_Structure_Project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Chapter11_Array_In_Data_Structure_Executable::@334e312cf26bd894dbc2",
+					"jsonFile" : "target-Chapter11_Array_In_Data_Structure_Executable-Debug-9397f429bc6a50e79950.json",
+					"name" : "Chapter11_Array_In_Data_Structure_Executable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Chapter11_Array_In_Data_Structure_MyLib::@6cc8ed5eb28323046a95",
+					"jsonFile" : "target-Chapter11_Array_In_Data_Structure_MyLib-Debug-c7a4713fd17bb8ab3495.json",
+					"name" : "Chapter11_Array_In_Data_Structure_MyLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build",
+		"source" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

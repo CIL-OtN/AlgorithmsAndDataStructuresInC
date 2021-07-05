@@ -11,7 +11,7 @@ node_t *createNode(value_type_t value)
         return NULL;
     }
 
-    value_type_t *p_value = (value_type_t*)malloc(sizeof(value_type_t));
+    value_type_t *p_value = (value_type_t *)malloc(sizeof(value_type_t));
 
     if(NULL == p_value)
     {

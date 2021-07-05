@@ -10,13 +10,13 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter3_0_Stack")
 
-# dd_subdirectory("Chapter3_1_Stack")
+# add_subdirectory("Chapter3_1_Stack")
 
 # add_subdirectory("Chapter4_0_Queue")
 
 # add_subdirectory("Chapter4_1_Queue")
 
-# add_subdirectory("Chapter5_0_LinkedList")
+add_subdirectory("Chapter5_0_LinkedList")
 
 # add_subdirectory("Chapter5_1_DLinkedList")
 
@@ -36,7 +36,7 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter10_Quick_Sort")
 
-add_subdirectory("Chapter11_Array_In_Data_Structure")
+# add_subdirectory("Chapter11_Array_In_Data_Structure")
 
 # add_subdirectory("")
 

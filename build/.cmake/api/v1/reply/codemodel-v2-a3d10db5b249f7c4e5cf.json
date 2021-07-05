@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Chapter5_0_LinkedList",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Chapter5_0_LinkedList"
+				},
+				{
+					"build" : "Chapter5_0_LinkedList/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter5_0_LinkedList/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Chapter5_0_LinkedList/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter5_0_LinkedList/app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AdvancedCProgrammingCourse"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "Chapter5_0_LinkedList_Project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Chapter5_0_LinkedList_Executable::@3874e2f0f33c804066bd",
+					"jsonFile" : "target-Chapter5_0_LinkedList_Executable-Debug-13172f24f8d83c1c04f4.json",
+					"name" : "Chapter5_0_LinkedList_Executable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Chapter5_0_LinkedList_MyLib::@28df5e22674e19e68881",
+					"jsonFile" : "target-Chapter5_0_LinkedList_MyLib-Debug-be73d3dc2a43ebe702d8.json",
+					"name" : "Chapter5_0_LinkedList_MyLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build",
+		"source" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

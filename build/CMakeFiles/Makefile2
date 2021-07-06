@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Chapter5_0_LinkedList/all
+all: Chapter5_1_LinkedList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Chapter5_0_LinkedList/preinstall
+preinstall: Chapter5_1_LinkedList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Chapter5_0_LinkedList/clean
+clean: Chapter5_1_LinkedList/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Chapter5_0_LinkedList
+# Directory level rules for directory Chapter5_1_LinkedList
 
 # Recursive "all" directory target.
-Chapter5_0_LinkedList/all: Chapter5_0_LinkedList/src/all
-Chapter5_0_LinkedList/all: Chapter5_0_LinkedList/app/all
-.PHONY : Chapter5_0_LinkedList/all
+Chapter5_1_LinkedList/all: Chapter5_1_LinkedList/src/all
+Chapter5_1_LinkedList/all: Chapter5_1_LinkedList/app/all
+.PHONY : Chapter5_1_LinkedList/all
 
 # Recursive "preinstall" directory target.
-Chapter5_0_LinkedList/preinstall: Chapter5_0_LinkedList/src/preinstall
-Chapter5_0_LinkedList/preinstall: Chapter5_0_LinkedList/app/preinstall
-.PHONY : Chapter5_0_LinkedList/preinstall
+Chapter5_1_LinkedList/preinstall: Chapter5_1_LinkedList/src/preinstall
+Chapter5_1_LinkedList/preinstall: Chapter5_1_LinkedList/app/preinstall
+.PHONY : Chapter5_1_LinkedList/preinstall
 
 # Recursive "clean" directory target.
-Chapter5_0_LinkedList/clean: Chapter5_0_LinkedList/src/clean
-Chapter5_0_LinkedList/clean: Chapter5_0_LinkedList/app/clean
-.PHONY : Chapter5_0_LinkedList/clean
+Chapter5_1_LinkedList/clean: Chapter5_1_LinkedList/src/clean
+Chapter5_1_LinkedList/clean: Chapter5_1_LinkedList/app/clean
+.PHONY : Chapter5_1_LinkedList/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter5_0_LinkedList/app
+# Directory level rules for directory Chapter5_1_LinkedList/app
 
 # Recursive "all" directory target.
-Chapter5_0_LinkedList/app/all: Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
-.PHONY : Chapter5_0_LinkedList/app/all
+Chapter5_1_LinkedList/app/all: Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
+.PHONY : Chapter5_1_LinkedList/app/all
 
 # Recursive "preinstall" directory target.
-Chapter5_0_LinkedList/app/preinstall:
-.PHONY : Chapter5_0_LinkedList/app/preinstall
+Chapter5_1_LinkedList/app/preinstall:
+.PHONY : Chapter5_1_LinkedList/app/preinstall
 
 # Recursive "clean" directory target.
-Chapter5_0_LinkedList/app/clean: Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
-.PHONY : Chapter5_0_LinkedList/app/clean
+Chapter5_1_LinkedList/app/clean: Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
+.PHONY : Chapter5_1_LinkedList/app/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter5_0_LinkedList/src
+# Directory level rules for directory Chapter5_1_LinkedList/src
 
 # Recursive "all" directory target.
-Chapter5_0_LinkedList/src/all: Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
-.PHONY : Chapter5_0_LinkedList/src/all
+Chapter5_1_LinkedList/src/all: Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
+.PHONY : Chapter5_1_LinkedList/src/all
 
 # Recursive "preinstall" directory target.
-Chapter5_0_LinkedList/src/preinstall:
-.PHONY : Chapter5_0_LinkedList/src/preinstall
+Chapter5_1_LinkedList/src/preinstall:
+.PHONY : Chapter5_1_LinkedList/src/preinstall
 
 # Recursive "clean" directory target.
-Chapter5_0_LinkedList/src/clean: Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
-.PHONY : Chapter5_0_LinkedList/src/clean
+Chapter5_1_LinkedList/src/clean: Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
+.PHONY : Chapter5_1_LinkedList/src/clean
 
 #=============================================================================
-# Target rules for target Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir
+# Target rules for target Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir
 
 # All Build rule for target.
-Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/build
+Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter5_0_LinkedList_MyLib"
-.PHONY : Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
+.PHONY : Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule: cmake_check_build_system
+Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
+.PHONY : Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
 
 # Convenience name for target.
-Chapter5_0_LinkedList_MyLib: Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
+Chapter5_0_LinkedList_MyLib: Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
 .PHONY : Chapter5_0_LinkedList_MyLib
 
 # clean rule for target.
-Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
-.PHONY : Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
+Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
+.PHONY : Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir
+# Target rules for target Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir
 
 # All Build rule for target.
-Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all: Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/build
+Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all: Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter5_0_LinkedList_Executable"
-.PHONY : Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
+.PHONY : Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule: cmake_check_build_system
+Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule
+.PHONY : Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule
 
 # Convenience name for target.
-Chapter5_0_LinkedList_Executable: Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule
+Chapter5_0_LinkedList_Executable: Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/rule
 .PHONY : Chapter5_0_LinkedList_Executable
 
 # clean rule for target.
-Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter5_0_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
-.PHONY : Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
+Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
+.PHONY : Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

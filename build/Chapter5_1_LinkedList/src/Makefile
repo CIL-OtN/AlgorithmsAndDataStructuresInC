@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter5_1_LinkedList\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Chapter5_0_LinkedList_MyLib
+# Convenience name for target.
+Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
+.PHONY : Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
 
-# Build rule for target.
-Chapter5_0_LinkedList_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList_MyLib
+# Convenience name for target.
+Chapter5_0_LinkedList_MyLib: Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/rule
 .PHONY : Chapter5_0_LinkedList_MyLib
 
 # fast build rule for target.
 Chapter5_0_LinkedList_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/build
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/build
 .PHONY : Chapter5_0_LinkedList_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named Chapter5_0_LinkedList_Executable
+LinkedList.obj: LinkedList.c.obj
+.PHONY : LinkedList.obj
 
-# Build rule for target.
-Chapter5_0_LinkedList_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList_Executable
-.PHONY : Chapter5_0_LinkedList_Executable
+# target to build an object file
+LinkedList.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/LinkedList.c.obj
+.PHONY : LinkedList.c.obj
 
-# fast build rule for target.
-Chapter5_0_LinkedList_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/build
-.PHONY : Chapter5_0_LinkedList_Executable/fast
+LinkedList.i: LinkedList.c.i
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/LinkedList.c.i
+.PHONY : LinkedList.c.i
+
+LinkedList.s: LinkedList.c.s
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/LinkedList.c.s
+.PHONY : LinkedList.c.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter5_0_LinkedList_Executable
 	@echo ... Chapter5_0_LinkedList_MyLib
+	@echo ... LinkedList.obj
+	@echo ... LinkedList.i
+	@echo ... LinkedList.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

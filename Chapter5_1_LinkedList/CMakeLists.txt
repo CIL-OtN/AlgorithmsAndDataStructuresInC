@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PROJECT "Chapter5_1_LinkedList")
+set(PROJECT "Chapter5_0_LinkedList")
 
 project("${PROJECT}_Project" VERSION 1.0.0 LANGUAGES C)
 

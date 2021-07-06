@@ -82,9 +82,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
-  "../Chapter5_0_LinkedList/CMakeLists.txt"
-  "../Chapter5_0_LinkedList/app/CMakeLists.txt"
-  "../Chapter5_0_LinkedList/src/CMakeLists.txt"
+  "../Chapter5_1_LinkedList/CMakeLists.txt"
+  "../Chapter5_1_LinkedList/app/CMakeLists.txt"
+  "../Chapter5_1_LinkedList/src/CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeSystem.cmake"
@@ -103,13 +103,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_0_LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_0_LinkedList/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter5_0_LinkedList/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter5_1_LinkedList/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter5_1_LinkedList/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter5_1_LinkedList/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Chapter5_0_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/DependInfo.cmake"
-  "Chapter5_0_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/DependInfo.cmake"
+  "Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/DependInfo.cmake"
+  "Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/DependInfo.cmake"
   )

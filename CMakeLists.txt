@@ -18,13 +18,11 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter5_0_LinkedList")
 
-add_subdirectory("Chapter5_1_LinkedList")
+# add_subdirectory("Chapter5_1_LinkedList")
 
-# add_subdirectory("Chapter5_1_DLinkedList")
+# add_subdirectory("Chapter6_0_DLinkedList")
 
-# add_subdirectory("Chapter6_0_Hash_Table")
-
-# add_subdirectory("Chapter6_1_Hash_Table")
+add_subdirectory("Chapter6_1_DLinkedList")
 
 # add_subdirectory("Chapter7_0_BinarySearchTree")
 

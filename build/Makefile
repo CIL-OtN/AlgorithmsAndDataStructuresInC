@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Chapter5_0_LinkedList_MyLib
+# Target rules for targets named Chapter6_1_DLinkedList_MyLib
 
 # Build rule for target.
-Chapter5_0_LinkedList_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList_MyLib
-.PHONY : Chapter5_0_LinkedList_MyLib
+Chapter6_1_DLinkedList_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_1_DLinkedList_MyLib
+.PHONY : Chapter6_1_DLinkedList_MyLib
 
 # fast build rule for target.
-Chapter5_0_LinkedList_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\src\CMakeFiles\Chapter5_0_LinkedList_MyLib.dir\build.make Chapter5_1_LinkedList/src/CMakeFiles/Chapter5_0_LinkedList_MyLib.dir/build
-.PHONY : Chapter5_0_LinkedList_MyLib/fast
+Chapter6_1_DLinkedList_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter6_1_DLinkedList\src\CMakeFiles\Chapter6_1_DLinkedList_MyLib.dir\build.make Chapter6_1_DLinkedList/src/CMakeFiles/Chapter6_1_DLinkedList_MyLib.dir/build
+.PHONY : Chapter6_1_DLinkedList_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named Chapter5_0_LinkedList_Executable
+# Target rules for targets named Chapter6_1_DLinkedList_Executable
 
 # Build rule for target.
-Chapter5_0_LinkedList_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter5_0_LinkedList_Executable
-.PHONY : Chapter5_0_LinkedList_Executable
+Chapter6_1_DLinkedList_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_1_DLinkedList_Executable
+.PHONY : Chapter6_1_DLinkedList_Executable
 
 # fast build rule for target.
-Chapter5_0_LinkedList_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter5_1_LinkedList\app\CMakeFiles\Chapter5_0_LinkedList_Executable.dir\build.make Chapter5_1_LinkedList/app/CMakeFiles/Chapter5_0_LinkedList_Executable.dir/build
-.PHONY : Chapter5_0_LinkedList_Executable/fast
+Chapter6_1_DLinkedList_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter6_1_DLinkedList\app\CMakeFiles\Chapter6_1_DLinkedList_Executable.dir\build.make Chapter6_1_DLinkedList/app/CMakeFiles/Chapter6_1_DLinkedList_Executable.dir/build
+.PHONY : Chapter6_1_DLinkedList_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter5_0_LinkedList_Executable
-	@echo ... Chapter5_0_LinkedList_MyLib
+	@echo ... Chapter6_1_DLinkedList_Executable
+	@echo ... Chapter6_1_DLinkedList_MyLib
 .PHONY : help
 
 

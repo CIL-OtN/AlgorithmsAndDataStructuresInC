@@ -236,6 +236,18 @@ Chapter5_0_LinkedList_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/Gi
 //Value Computed by CMake
 Chapter5_0_LinkedList_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter5_1_LinkedList
 
+//Value Computed by CMake
+Chapter6_0_DLinkedList_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter6_0_DLinkedList
+
+//Value Computed by CMake
+Chapter6_0_DLinkedList_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter6_0_DLinkedList
+
+//Value Computed by CMake
+Chapter6_1_DLinkedList_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter6_1_DLinkedList
+
+//Value Computed by CMake
+Chapter6_1_DLinkedList_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter6_1_DLinkedList
+
 
 ########################
 # INTERNAL cache entries

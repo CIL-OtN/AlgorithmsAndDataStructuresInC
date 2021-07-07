@@ -13,11 +13,7 @@ typedef struct node
 void pushFront(node_t **head, typedef_value_t value) 
 {
     node_t *newNode = malloc(sizeof(node_t));
-    // typedef_value_t value;
-
-    // printf("Value -> ");
-    // scanf("%u", &value);
-
+   
     newNode->data = value;
     newNode->next = *head;
 

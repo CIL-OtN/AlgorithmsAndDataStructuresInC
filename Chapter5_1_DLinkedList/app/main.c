@@ -15,7 +15,6 @@ int main(void) {
     node_t *b = createNode(2.0f);
     node_t *c = createNode(3.0f);
     node_t *d = createNode(4.0f);
-
     node_t *e = createNode(5.0f);
 
     pushBack(list, a);

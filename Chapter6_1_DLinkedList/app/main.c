@@ -24,32 +24,18 @@ void printForward(node_t** head)
 
     while(temp != NULL) 
     {
-        printf("%d ", temp->data);
+        printf("| %d | -> ", temp->data);
         temp = temp->next;
     }
     printf("\n");
 }
 
-void printBackward(node_t** last) 
+void printBackward(node_t** head) 
 {
-    node_t *temp = *last;
 
-    if(temp == NULL) 
-    {
-        printf("List is empty! \n");
-    }
-
-    while(temp != NULL) 
-    {
-        printf("%d ", temp->data);
-        temp = temp->prev;
-    }
-    printf("\n");
 }
 
-void pushTail();
-
-void pushHead(node_t** head, typedef_value_t newValue) 
+void insertBefore(node_t** head, typedef_value_t newValue) 
 {
     node_t* newNode = (node_t*)malloc(sizeof(node_t));
 
@@ -57,16 +43,43 @@ void pushHead(node_t** head, typedef_value_t newValue)
 
     if(*head == NULL) 
     {
-        newNode->next = NULL;
         newNode->prev = NULL;
+        newNode->next = NULL;
         *head = newNode;
     }
     else 
     {
-        newNode->next = *head;
         newNode->prev = NULL;
+        newNode->next = *head;
         (*head)->prev = newNode;
         *head = newNode;
+    }
+}
+
+void insertAfter(node_t** head, typedef_value_t newValue) 
+{
+    node_t* newNode = (node_t*)malloc(sizeof(node_t));
+
+    newNode->data = newValue;
+
+    if(*head == NULL) 
+    {
+        newNode->prev = NULL;
+        newNode->next = NULL;
+        *head = newNode;
+    }
+    else 
+    {
+        node_t* last = *head;
+        
+        while(last->next != NULL) 
+        {
+            last = last->next;
+        }
+
+        last->next = newNode;
+        newNode->prev = last;
+        newNode->next = NULL;
     }
 }
 
@@ -74,21 +87,21 @@ int main(void) {
 
     system("clear");
 
+    // insertAfter
+    // insertBefore
+
     node_t* origin = (node_t*)malloc(sizeof(node_t));
     origin = NULL;
-
-    pushHead(&origin, 8);
     
-    pushHead(&origin, 10);
-    
-    pushHead(&origin, 12);
+    insertAfter(&origin, 5);
+    insertAfter(&origin, 8);
 
+    insertBefore(&origin, 10);
+  
 
     printForward(&origin);
-
-    printBackward(&origin-1);
-   
-
+    //printBackward(&origin);
+    
     return 0;
 }
 

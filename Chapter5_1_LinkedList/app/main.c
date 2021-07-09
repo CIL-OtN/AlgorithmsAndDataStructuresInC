@@ -60,12 +60,8 @@ int main(void) {
 
     node_t* list = createList();
 
-
-
     printList(list);
 
-    
-    /*
     typedef_value_t n, i, x;
 
     printf("How many numbers: ");
@@ -78,8 +74,7 @@ int main(void) {
         list = push(list, &x);
         printList(list);
     }
-    */
-    
+ 
     
     printf("\n");
 

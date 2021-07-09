@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Circular_LinkedList_Executable.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\Circular_LinkedList_Executable.dir/objects.a @CMakeFiles\Circular_LinkedList_Executable.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\X8EAA8~1.EXE -g -Wl,--whole-archive CMakeFiles\Circular_LinkedList_Executable.dir/objects.a -Wl,--no-whole-archive -o Circular_LinkedList_Executable.exe -Wl,--out-implib,libCircular_LinkedList_Executable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Circular_LinkedList_Executable.dir\linklibs.rsp

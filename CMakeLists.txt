@@ -12,9 +12,13 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter3_1_Stack")
 
+# add_subdirectory("Chapter3_2_Stack")
+
 # add_subdirectory("Chapter4_0_Queue")
 
 # add_subdirectory("Chapter4_1_Queue")
+
+add_subdirectory("Chapter4_2_Queue")
 
 # add_subdirectory("Chapter5_0_LinkedList")
 
@@ -38,7 +42,7 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter11_Array_In_Data_Structure")
 
-add_subdirectory("Chapter12_0_Circular_LinkedList")
+# add_subdirectory("Chapter12_0_Circular_LinkedList")
 
 # add_subdirectory("")
 

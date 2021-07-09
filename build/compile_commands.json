@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter12_0_Circular_LinkedList/src",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Circular_LinkedList_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Circular_LinkedList_MyLib.dir\\CLinkedList.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter12_0_Circular_LinkedList\\src\\CLinkedList.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter12_0_Circular_LinkedList/src/CLinkedList.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_2_Queue/src",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter4_2_Queue_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\Chapter4_2_Queue_MyLib.dir\\queue.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter4_2_Queue\\src\\queue.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_2_Queue/src/queue.c"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter12_0_Circular_LinkedList/app",
-  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Circular_LinkedList_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Circular_LinkedList_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter12_0_Circular_LinkedList\\app\\main.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter12_0_Circular_LinkedList/app/main.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter4_2_Queue/app",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X8EAA8~1.EXE  @CMakeFiles/Chapter4_2_Queue_Executable.dir/includes_C.rsp -g -o CMakeFiles\\Chapter4_2_Queue_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AlgorithmsAndDataStructuresInC\\Chapter4_2_Queue\\app\\main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter4_2_Queue/app/main.c"
 }
 ]

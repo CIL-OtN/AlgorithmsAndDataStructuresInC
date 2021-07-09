@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter4_2_Queue\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Chapter4_2_Queue_MyLib
+# Convenience name for target.
+Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/rule:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/rule
+.PHONY : Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/rule
 
-# Build rule for target.
-Chapter4_2_Queue_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue_MyLib
+# Convenience name for target.
+Chapter4_2_Queue_MyLib: Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/rule
 .PHONY : Chapter4_2_Queue_MyLib
 
 # fast build rule for target.
 Chapter4_2_Queue_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\src\CMakeFiles\Chapter4_2_Queue_MyLib.dir\build.make Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/build
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\src\CMakeFiles\Chapter4_2_Queue_MyLib.dir\build.make Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/build
 .PHONY : Chapter4_2_Queue_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named Chapter4_2_Queue_Executable
+queue.obj: queue.c.obj
+.PHONY : queue.obj
 
-# Build rule for target.
-Chapter4_2_Queue_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter4_2_Queue_Executable
-.PHONY : Chapter4_2_Queue_Executable
+# target to build an object file
+queue.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\src\CMakeFiles\Chapter4_2_Queue_MyLib.dir\build.make Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/queue.c.obj
+.PHONY : queue.c.obj
 
-# fast build rule for target.
-Chapter4_2_Queue_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\app\CMakeFiles\Chapter4_2_Queue_Executable.dir\build.make Chapter4_2_Queue/app/CMakeFiles/Chapter4_2_Queue_Executable.dir/build
-.PHONY : Chapter4_2_Queue_Executable/fast
+queue.i: queue.c.i
+.PHONY : queue.i
+
+# target to preprocess a source file
+queue.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\src\CMakeFiles\Chapter4_2_Queue_MyLib.dir\build.make Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/queue.c.i
+.PHONY : queue.c.i
+
+queue.s: queue.c.s
+.PHONY : queue.s
+
+# target to generate assembly for a file
+queue.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter4_2_Queue\src\CMakeFiles\Chapter4_2_Queue_MyLib.dir\build.make Chapter4_2_Queue/src/CMakeFiles/Chapter4_2_Queue_MyLib.dir/queue.c.s
+.PHONY : queue.c.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter4_2_Queue_Executable
 	@echo ... Chapter4_2_Queue_MyLib
+	@echo ... queue.obj
+	@echo ... queue.i
+	@echo ... queue.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

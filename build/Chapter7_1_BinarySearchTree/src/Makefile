@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter7_1_BinarySearchTree\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Chapter7_1_BinarySearchTree_MyLib
+# Convenience name for target.
+Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/rule:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/rule
+.PHONY : Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/rule
 
-# Build rule for target.
-Chapter7_1_BinarySearchTree_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree_MyLib
+# Convenience name for target.
+Chapter7_1_BinarySearchTree_MyLib: Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/rule
 .PHONY : Chapter7_1_BinarySearchTree_MyLib
 
 # fast build rule for target.
 Chapter7_1_BinarySearchTree_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\src\CMakeFiles\Chapter7_1_BinarySearchTree_MyLib.dir\build.make Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/build
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\src\CMakeFiles\Chapter7_1_BinarySearchTree_MyLib.dir\build.make Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/build
 .PHONY : Chapter7_1_BinarySearchTree_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named Chapter7_1_BinarySearchTree_Executable
+BinarySearchTree.obj: BinarySearchTree.c.obj
+.PHONY : BinarySearchTree.obj
 
-# Build rule for target.
-Chapter7_1_BinarySearchTree_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter7_1_BinarySearchTree_Executable
-.PHONY : Chapter7_1_BinarySearchTree_Executable
+# target to build an object file
+BinarySearchTree.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\src\CMakeFiles\Chapter7_1_BinarySearchTree_MyLib.dir\build.make Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/BinarySearchTree.c.obj
+.PHONY : BinarySearchTree.c.obj
 
-# fast build rule for target.
-Chapter7_1_BinarySearchTree_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\app\CMakeFiles\Chapter7_1_BinarySearchTree_Executable.dir\build.make Chapter7_1_BinarySearchTree/app/CMakeFiles/Chapter7_1_BinarySearchTree_Executable.dir/build
-.PHONY : Chapter7_1_BinarySearchTree_Executable/fast
+BinarySearchTree.i: BinarySearchTree.c.i
+.PHONY : BinarySearchTree.i
+
+# target to preprocess a source file
+BinarySearchTree.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\src\CMakeFiles\Chapter7_1_BinarySearchTree_MyLib.dir\build.make Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/BinarySearchTree.c.i
+.PHONY : BinarySearchTree.c.i
+
+BinarySearchTree.s: BinarySearchTree.c.s
+.PHONY : BinarySearchTree.s
+
+# target to generate assembly for a file
+BinarySearchTree.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter7_1_BinarySearchTree\src\CMakeFiles\Chapter7_1_BinarySearchTree_MyLib.dir\build.make Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/BinarySearchTree.c.s
+.PHONY : BinarySearchTree.c.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Chapter7_1_BinarySearchTree_Executable
 	@echo ... Chapter7_1_BinarySearchTree_MyLib
+	@echo ... BinarySearchTree.obj
+	@echo ... BinarySearchTree.i
+	@echo ... BinarySearchTree.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

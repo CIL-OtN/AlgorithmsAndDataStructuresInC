@@ -18,7 +18,7 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter4_1_Queue")
 
-add_subdirectory("Chapter4_2_Queue")
+# add_subdirectory("Chapter4_2_Queue")
 
 # add_subdirectory("Chapter5_0_LinkedList")
 
@@ -29,6 +29,8 @@ add_subdirectory("Chapter4_2_Queue")
 # add_subdirectory("Chapter6_1_DLinkedList")
 
 # add_subdirectory("Chapter7_0_BinarySearchTree")
+
+add_subdirectory("Chapter7_1_BinarySearchTree")
 
 # add_subdirectory("Chapter8_Min_Max_Heap")
 

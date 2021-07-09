@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC
+# Install script for directory: C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/Chapter7_1_BinarySearchTree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,17 +38,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter7_1_BinarySearchTree/cmake_install.cmake")
+  # Include the install script for each subdirectory.
+  include("C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter7_1_BinarySearchTree/src/cmake_install.cmake")
+  include("C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/Chapter7_1_BinarySearchTree/app/cmake_install.cmake")
+
 endif()
 
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

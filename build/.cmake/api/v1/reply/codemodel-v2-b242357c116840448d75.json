@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "Chapter6_1_DLinkedList",
+					"build" : "Chapter6_0_DLinkedList",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "Chapter6_1_DLinkedList"
+					"source" : "Chapter6_0_DLinkedList"
 				},
 				{
-					"build" : "Chapter6_1_DLinkedList/src",
+					"build" : "Chapter6_0_DLinkedList/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter6_1_DLinkedList/src",
+					"source" : "Chapter6_0_DLinkedList/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "Chapter6_1_DLinkedList/app",
+					"build" : "Chapter6_0_DLinkedList/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "Chapter6_1_DLinkedList/app",
+					"source" : "Chapter6_0_DLinkedList/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "Chapter6_1_DLinkedList_Project",
+					"name" : "Chapter6_0_DLinkedList_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "Chapter6_1_DLinkedList_Executable::@65f5527d95a9661b20b4",
-					"jsonFile" : "target-Chapter6_1_DLinkedList_Executable-Debug-51547b54a6ae8739f3ec.json",
-					"name" : "Chapter6_1_DLinkedList_Executable",
+					"id" : "Chapter6_0_DLinkedList_Executable::@7ac64016350aa1a4fb2d",
+					"jsonFile" : "target-Chapter6_0_DLinkedList_Executable-Debug-e7f9d622a0ffdf243cca.json",
+					"name" : "Chapter6_0_DLinkedList_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "Chapter6_1_DLinkedList_MyLib::@57a401f2c266d966fc0b",
-					"jsonFile" : "target-Chapter6_1_DLinkedList_MyLib-Debug-75f6e31631821126b988.json",
-					"name" : "Chapter6_1_DLinkedList_MyLib",
+					"id" : "Chapter6_0_DLinkedList_MyLib::@5036ef5bd6239ec91111",
+					"jsonFile" : "target-Chapter6_0_DLinkedList_MyLib-Debug-a2c102332b9c1d620358.json",
+					"name" : "Chapter6_0_DLinkedList_MyLib",
 					"projectIndex" : 1
 				}
 			]

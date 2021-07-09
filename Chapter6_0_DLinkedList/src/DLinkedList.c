@@ -212,40 +212,6 @@ value_type_t popNode(list_t *list, uint32_t idx)
     return value;
 }
 
-void pushNode(list_t *list, node_t *node, uint32_t idx) 
-{
-    if(NULL == list || NULL == node || idx >= list->size)
-    {
-        return;
-    }
-
-    if(0u == idx) 
-    {
-        return pushFront(list, node);
-    }
-
-    if(list->size -1u == idx) 
-    {
-        return pushBack(list, node);
-    }
-
-    uint32_t current_idx = 0u;
-    node_t *node_at_idx = list->front;
-
-    while (current_idx < idx)
-    {
-        node_at_idx = node_at_idx->next;
-        current_idx++;
-    }
-
-    node->prev = node_at_idx;
-    node->next = node_at_idx->next;
-    node_at_idx->next->prev = node;
-    node_at_idx->next = node;
-
-    list->size++;
-}
-
 value_type_t valueAtIdx(list_t *list, uint32_t idx) 
 {
     if(NULL == list || idx >= list->size)
@@ -297,3 +263,38 @@ void printList(list_t *list)
     
     printf("\n");
 }
+
+void pushNode(list_t *list, node_t *node, uint32_t idx) 
+{
+    if(NULL == list || NULL == node || idx >= list->size)
+    {
+        return;
+    }
+
+    if(0u == idx) 
+    {
+        return pushFront(list, node);
+    }
+
+    if(list->size -1u == idx) 
+    {
+        return pushBack(list, node);
+    }
+
+    uint32_t current_idx = 0u;
+    node_t *node_at_idx = list->front;
+
+    while (current_idx < idx)
+    {
+        node_at_idx = node_at_idx->next;
+        current_idx++;
+    }
+
+    node->prev = node_at_idx;
+    node->next = node_at_idx->next;
+    node_at_idx->next->prev = node;
+    node_at_idx->next = node;
+
+    list->size++;
+}
+

@@ -13,7 +13,7 @@ typedef struct node
     struct node* next;
 } node_t;
 
-void insertBefore(node_t** head, typedef_value_t newValue) 
+void addBefore(node_t** head, typedef_value_t newValue) 
 {
     node_t* newNode = (node_t*)malloc(sizeof(node_t));
 
@@ -34,7 +34,7 @@ void insertBefore(node_t** head, typedef_value_t newValue)
     }
 }
 
-void insertAfter(node_t** head, typedef_value_t newValue) 
+void addAfter(node_t** head, typedef_value_t newValue) 
 {
     node_t* newNode = (node_t*)malloc(sizeof(node_t));
 
@@ -164,19 +164,19 @@ int main(void) {
 
     // createHeadNode();
 
-    node_t* origin = (node_t*)malloc(sizeof(node_t));
-    origin = NULL;
+    node_t* head = (node_t*)malloc(sizeof(node_t));
+    head = NULL;
 
-    insertBefore(&origin, 10);
-    insertBefore(&origin, 20);
-    insertBefore(&origin, 30);
+    addBefore(&head, 10);
+    addBefore(&head, 20);
+    addBefore(&head, 30);
 
 
-    printForward(&origin);
+    printForward(&head);
 
-    free(origin);
-    origin = NULL;
-    // printForward(&origin);
+    free(head);
+    head = NULL;
+    // printForward(&head);
 
     return 0;
 }

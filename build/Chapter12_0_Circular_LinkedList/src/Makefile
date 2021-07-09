@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Chapter12_0_Circular_LinkedList\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Circular_LinkedList_MyLib
+# Convenience name for target.
+Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule
+.PHONY : Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule
 
-# Build rule for target.
-Circular_LinkedList_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Circular_LinkedList_MyLib
+# Convenience name for target.
+Circular_LinkedList_MyLib: Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule
 .PHONY : Circular_LinkedList_MyLib
 
 # fast build rule for target.
 Circular_LinkedList_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/build
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/build
 .PHONY : Circular_LinkedList_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named Circular_LinkedList_Executable
+CLinkedList.obj: CLinkedList.c.obj
+.PHONY : CLinkedList.obj
 
-# Build rule for target.
-Circular_LinkedList_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Circular_LinkedList_Executable
-.PHONY : Circular_LinkedList_Executable
+# target to build an object file
+CLinkedList.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/CLinkedList.c.obj
+.PHONY : CLinkedList.c.obj
 
-# fast build rule for target.
-Circular_LinkedList_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\app\CMakeFiles\Circular_LinkedList_Executable.dir\build.make Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/build
-.PHONY : Circular_LinkedList_Executable/fast
+CLinkedList.i: CLinkedList.c.i
+.PHONY : CLinkedList.i
+
+# target to preprocess a source file
+CLinkedList.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/CLinkedList.c.i
+.PHONY : CLinkedList.c.i
+
+CLinkedList.s: CLinkedList.c.s
+.PHONY : CLinkedList.s
+
+# target to generate assembly for a file
+CLinkedList.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/CLinkedList.c.s
+.PHONY : CLinkedList.c.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Circular_LinkedList_Executable
 	@echo ... Circular_LinkedList_MyLib
+	@echo ... CLinkedList.obj
+	@echo ... CLinkedList.i
+	@echo ... CLinkedList.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

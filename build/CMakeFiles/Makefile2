@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Chapter6_0_DLinkedList/all
+all: Chapter12_0_Circular_LinkedList/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Chapter6_0_DLinkedList/preinstall
+preinstall: Chapter12_0_Circular_LinkedList/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Chapter6_0_DLinkedList/clean
+clean: Chapter12_0_Circular_LinkedList/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Chapter6_0_DLinkedList
+# Directory level rules for directory Chapter12_0_Circular_LinkedList
 
 # Recursive "all" directory target.
-Chapter6_0_DLinkedList/all: Chapter6_0_DLinkedList/src/all
-Chapter6_0_DLinkedList/all: Chapter6_0_DLinkedList/app/all
-.PHONY : Chapter6_0_DLinkedList/all
+Chapter12_0_Circular_LinkedList/all: Chapter12_0_Circular_LinkedList/src/all
+Chapter12_0_Circular_LinkedList/all: Chapter12_0_Circular_LinkedList/app/all
+.PHONY : Chapter12_0_Circular_LinkedList/all
 
 # Recursive "preinstall" directory target.
-Chapter6_0_DLinkedList/preinstall: Chapter6_0_DLinkedList/src/preinstall
-Chapter6_0_DLinkedList/preinstall: Chapter6_0_DLinkedList/app/preinstall
-.PHONY : Chapter6_0_DLinkedList/preinstall
+Chapter12_0_Circular_LinkedList/preinstall: Chapter12_0_Circular_LinkedList/src/preinstall
+Chapter12_0_Circular_LinkedList/preinstall: Chapter12_0_Circular_LinkedList/app/preinstall
+.PHONY : Chapter12_0_Circular_LinkedList/preinstall
 
 # Recursive "clean" directory target.
-Chapter6_0_DLinkedList/clean: Chapter6_0_DLinkedList/src/clean
-Chapter6_0_DLinkedList/clean: Chapter6_0_DLinkedList/app/clean
-.PHONY : Chapter6_0_DLinkedList/clean
+Chapter12_0_Circular_LinkedList/clean: Chapter12_0_Circular_LinkedList/src/clean
+Chapter12_0_Circular_LinkedList/clean: Chapter12_0_Circular_LinkedList/app/clean
+.PHONY : Chapter12_0_Circular_LinkedList/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter6_0_DLinkedList/app
+# Directory level rules for directory Chapter12_0_Circular_LinkedList/app
 
 # Recursive "all" directory target.
-Chapter6_0_DLinkedList/app/all: Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/all
-.PHONY : Chapter6_0_DLinkedList/app/all
+Chapter12_0_Circular_LinkedList/app/all: Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/all
+.PHONY : Chapter12_0_Circular_LinkedList/app/all
 
 # Recursive "preinstall" directory target.
-Chapter6_0_DLinkedList/app/preinstall:
-.PHONY : Chapter6_0_DLinkedList/app/preinstall
+Chapter12_0_Circular_LinkedList/app/preinstall:
+.PHONY : Chapter12_0_Circular_LinkedList/app/preinstall
 
 # Recursive "clean" directory target.
-Chapter6_0_DLinkedList/app/clean: Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/clean
-.PHONY : Chapter6_0_DLinkedList/app/clean
+Chapter12_0_Circular_LinkedList/app/clean: Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/clean
+.PHONY : Chapter12_0_Circular_LinkedList/app/clean
 
 #=============================================================================
-# Directory level rules for directory Chapter6_0_DLinkedList/src
+# Directory level rules for directory Chapter12_0_Circular_LinkedList/src
 
 # Recursive "all" directory target.
-Chapter6_0_DLinkedList/src/all: Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/all
-.PHONY : Chapter6_0_DLinkedList/src/all
+Chapter12_0_Circular_LinkedList/src/all: Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/all
+.PHONY : Chapter12_0_Circular_LinkedList/src/all
 
 # Recursive "preinstall" directory target.
-Chapter6_0_DLinkedList/src/preinstall:
-.PHONY : Chapter6_0_DLinkedList/src/preinstall
+Chapter12_0_Circular_LinkedList/src/preinstall:
+.PHONY : Chapter12_0_Circular_LinkedList/src/preinstall
 
 # Recursive "clean" directory target.
-Chapter6_0_DLinkedList/src/clean: Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/clean
-.PHONY : Chapter6_0_DLinkedList/src/clean
+Chapter12_0_Circular_LinkedList/src/clean: Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/clean
+.PHONY : Chapter12_0_Circular_LinkedList/src/clean
 
 #=============================================================================
-# Target rules for target Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir
+# Target rules for target Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir
 
 # All Build rule for target.
-Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\src\CMakeFiles\Chapter6_0_DLinkedList_MyLib.dir\build.make Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\src\CMakeFiles\Chapter6_0_DLinkedList_MyLib.dir\build.make Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter6_0_DLinkedList_MyLib"
-.PHONY : Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/all
+Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Circular_LinkedList_MyLib"
+.PHONY : Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/rule: cmake_check_build_system
+Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/rule
+.PHONY : Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule
 
 # Convenience name for target.
-Chapter6_0_DLinkedList_MyLib: Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/rule
-.PHONY : Chapter6_0_DLinkedList_MyLib
+Circular_LinkedList_MyLib: Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/rule
+.PHONY : Circular_LinkedList_MyLib
 
 # clean rule for target.
-Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\src\CMakeFiles\Chapter6_0_DLinkedList_MyLib.dir\build.make Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/clean
-.PHONY : Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/clean
+Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\src\CMakeFiles\Circular_LinkedList_MyLib.dir\build.make Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/clean
+.PHONY : Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir
+# Target rules for target Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir
 
 # All Build rule for target.
-Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/all: Chapter6_0_DLinkedList/src/CMakeFiles/Chapter6_0_DLinkedList_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\app\CMakeFiles\Chapter6_0_DLinkedList_Executable.dir\build.make Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\app\CMakeFiles\Chapter6_0_DLinkedList_Executable.dir\build.make Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter6_0_DLinkedList_Executable"
-.PHONY : Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/all
+Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/all: Chapter12_0_Circular_LinkedList/src/CMakeFiles/Circular_LinkedList_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\app\CMakeFiles\Circular_LinkedList_Executable.dir\build.make Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\app\CMakeFiles\Circular_LinkedList_Executable.dir\build.make Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Circular_LinkedList_Executable"
+.PHONY : Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/rule: cmake_check_build_system
+Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/rule
+.PHONY : Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/rule
 
 # Convenience name for target.
-Chapter6_0_DLinkedList_Executable: Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/rule
-.PHONY : Chapter6_0_DLinkedList_Executable
+Circular_LinkedList_Executable: Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/rule
+.PHONY : Circular_LinkedList_Executable
 
 # clean rule for target.
-Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Chapter6_0_DLinkedList\app\CMakeFiles\Chapter6_0_DLinkedList_Executable.dir\build.make Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/clean
-.PHONY : Chapter6_0_DLinkedList/app/CMakeFiles/Chapter6_0_DLinkedList_Executable.dir/clean
+Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter12_0_Circular_LinkedList\app\CMakeFiles\Circular_LinkedList_Executable.dir\build.make Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/clean
+.PHONY : Chapter12_0_Circular_LinkedList/app/CMakeFiles/Circular_LinkedList_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

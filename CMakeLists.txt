@@ -20,7 +20,7 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter5_1_LinkedList")
 
-add_subdirectory("Chapter6_0_DLinkedList")
+# add_subdirectory("Chapter6_0_DLinkedList")
 
 # add_subdirectory("Chapter6_1_DLinkedList")
 
@@ -38,7 +38,7 @@ add_subdirectory("Chapter6_0_DLinkedList")
 
 # add_subdirectory("Chapter11_Array_In_Data_Structure")
 
-# add_subdirectory("")
+add_subdirectory("Chapter12_0_Circular_LinkedList")
 
 # add_subdirectory("")
 

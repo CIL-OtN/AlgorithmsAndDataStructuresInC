@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Chapter12_0_Circular_LinkedList",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Chapter12_0_Circular_LinkedList"
+				},
+				{
+					"build" : "Chapter12_0_Circular_LinkedList/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter12_0_Circular_LinkedList/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Chapter12_0_Circular_LinkedList/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Chapter12_0_Circular_LinkedList/app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AdvancedCProgrammingCourse"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "Circular_LinkedList_Project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Circular_LinkedList_Executable::@32016e4d46d9155a2d18",
+					"jsonFile" : "target-Circular_LinkedList_Executable-Debug-9d2efada47143c58280a.json",
+					"name" : "Circular_LinkedList_Executable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Circular_LinkedList_MyLib::@a9459aaf0b1341d37267",
+					"jsonFile" : "target-Circular_LinkedList_MyLib-Debug-7feed0bf8d5df9e60ed9.json",
+					"name" : "Circular_LinkedList_MyLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC/build",
+		"source" : "C:/Users/eywiotosof/Documents/GitHub/AlgorithmsAndDataStructuresInC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

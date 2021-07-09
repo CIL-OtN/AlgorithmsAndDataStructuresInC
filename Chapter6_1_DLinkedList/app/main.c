@@ -79,7 +79,51 @@ void searchNode(node_t** head, typedef_value_t key)
     printf("Node with value %d does not exist! \n", key);
 }
 
-void deleteNode(node_t** head, int key) 
+void printBackward(node_t** head) 
+{
+    node_t* temp = *head;
+
+    if(temp == NULL) 
+    {
+        printf("List backward is empty! \n");
+    }
+
+    while(temp->next != NULL) // node is the last one
+    {
+        temp = temp->next;
+    }
+
+    while(temp != NULL) 
+    {
+        printf("| %d | -> ", temp->data);
+        temp = temp->prev;
+    }
+    printf("\n");
+}
+
+void printForward(node_t** head) 
+{
+    node_t *temp = *head;
+
+    if(temp == NULL) 
+    {
+        printf("List forward is empty! \n");
+    }
+
+    printf("NULL <- ");
+    while(temp != NULL) 
+    {
+        printf("| %d | %d | %d | -> ",temp->prev, temp->data, temp->next);
+        // printf("| %d | %d | %d | -> ",temp->prev, &(*temp), temp->next);
+        temp = temp->next;
+    }
+    printf("NULL \n");
+
+    temp = *head;
+}
+
+
+void deleteNode(node_t** head, uint32_t key) 
 {
     if(*head == NULL)
         return;
@@ -114,57 +158,6 @@ void deleteNode(node_t** head, int key)
     }
 }
 
-void printBackward(node_t** head) 
-{
-    node_t* temp = *head;
-
-    if(temp == NULL) 
-    {
-        printf("List backward is empty! \n");
-    }
-
-    while(temp->next != NULL) // node is the last one
-    {
-        temp = temp->next;
-    }
-
-    while(temp != NULL) 
-    {
-        printf("| %d | -> ", temp->data);
-        temp = temp->prev;
-    }
-    printf("\n");
-}
-
-void printForward(node_t** head) 
-{
-    node_t *temp = *head;
-
-    if(temp == NULL) 
-    {
-        printf("List forward is empty! \n");
-    }
-
-    
-    printf("Traverse node address: NULL <- ");
-    while(temp != NULL) 
-    {
-        printf("| %d | %d | %d | -> ",temp->prev, &(*temp), temp->next);
-        temp = temp->next;
-    }
-    printf("NULL \n");
-
-    temp = *head;
-    
-    printf("Traverse node value  : NULL <- ");
-    while(temp != NULL) 
-    {
-        printf("| %d |    %d    | %d | -> ",temp->prev, temp->data, temp->next);
-        temp = temp->next;
-    }
-    printf("NULL \n");
-}
-
 int main(void) {
 
     system("clear");
@@ -177,6 +170,7 @@ int main(void) {
     insertBefore(&origin, 10);
     insertBefore(&origin, 20);
     insertBefore(&origin, 30);
+
 
     printForward(&origin);
 

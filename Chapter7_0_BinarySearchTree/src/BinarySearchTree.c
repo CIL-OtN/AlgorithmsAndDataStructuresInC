@@ -153,7 +153,7 @@ void printBST(node_t *node)
 
     printf(
         "%.2f \n"
-        "/   \\\n"
+        "/   \\ \n"
         "%.2f %.2f\n\n",
         node->value,
         left_value,

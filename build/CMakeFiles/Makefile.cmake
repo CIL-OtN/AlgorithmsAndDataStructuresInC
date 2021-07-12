@@ -81,10 +81,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
+  "../Base/CMakeLists.txt"
+  "../Base/app/CMakeLists.txt"
+  "../Base/src/CMakeLists.txt"
   "../CMakeLists.txt"
-  "../Chapter7_1_BinarySearchTree/CMakeLists.txt"
-  "../Chapter7_1_BinarySearchTree/app/CMakeLists.txt"
-  "../Chapter7_1_BinarySearchTree/src/CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeSystem.cmake"
@@ -103,13 +103,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter7_1_BinarySearchTree/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter7_1_BinarySearchTree/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Chapter7_1_BinarySearchTree/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Base/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Base/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "Chapter7_1_BinarySearchTree/src/CMakeFiles/Chapter7_1_BinarySearchTree_MyLib.dir/DependInfo.cmake"
-  "Chapter7_1_BinarySearchTree/app/CMakeFiles/Chapter7_1_BinarySearchTree_Executable.dir/DependInfo.cmake"
+  "Base/src/CMakeFiles/Base_MyLib.dir/DependInfo.cmake"
+  "Base/app/CMakeFiles/Base_Executable.dir/DependInfo.cmake"
   )

@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\Base\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Base_MyLib
+# Convenience name for target.
+Base/src/CMakeFiles/Base_MyLib.dir/rule:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/CMakeFiles/Base_MyLib.dir/rule
+.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/rule
 
-# Build rule for target.
-Base_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base_MyLib
+# Convenience name for target.
+Base_MyLib: Base/src/CMakeFiles/Base_MyLib.dir/rule
 .PHONY : Base_MyLib
 
 # fast build rule for target.
 Base_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/build
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/build
 .PHONY : Base_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named Base_Executable
+my_lib.obj: my_lib.c.obj
+.PHONY : my_lib.obj
 
-# Build rule for target.
-Base_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base_Executable
-.PHONY : Base_Executable
+# target to build an object file
+my_lib.c.obj:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/my_lib.c.obj
+.PHONY : my_lib.c.obj
 
-# fast build rule for target.
-Base_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/build
-.PHONY : Base_Executable/fast
+my_lib.i: my_lib.c.i
+.PHONY : my_lib.i
+
+# target to preprocess a source file
+my_lib.c.i:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/my_lib.c.i
+.PHONY : my_lib.c.i
+
+my_lib.s: my_lib.c.s
+.PHONY : my_lib.s
+
+# target to generate assembly for a file
+my_lib.c.s:
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/my_lib.c.s
+.PHONY : my_lib.c.s
 
 # Help Target
 help:
@@ -149,8 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Base_Executable
 	@echo ... Base_MyLib
+	@echo ... my_lib.obj
+	@echo ... my_lib.i
+	@echo ... my_lib.s
 .PHONY : help
 
 
@@ -162,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
-## add_subdirectory("Base")
+add_subdirectory("Base")
 
 # add_subdirectory("Chapter1_Intro")
 
@@ -30,11 +30,13 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("Chapter7_0_BinarySearchTree")
 
-add_subdirectory("Chapter7_1_BinarySearchTree")
+# add_subdirectory("Chapter7_1_BinarySearchTree")
 
 # add_subdirectory("Chapter8_Min_Max_Heap")
 
-# add_subdirectory("Chapter9_Graph")
+# add_subdirectory("Chapter9_0_Graph")
+
+# add_subdirectory("Chapter9_1_Graph")
 
 # add_subdirectory("Chapter10_Bubble_Sort")
 

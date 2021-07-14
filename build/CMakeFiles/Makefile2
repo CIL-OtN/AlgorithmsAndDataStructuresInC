@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: Base/all
+all: Chapter13_0_BinaryHeaps/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: Base/preinstall
+preinstall: Chapter13_0_BinaryHeaps/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: Base/clean
+clean: Chapter13_0_BinaryHeaps/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory Base
+# Directory level rules for directory Chapter13_0_BinaryHeaps
 
 # Recursive "all" directory target.
-Base/all: Base/src/all
-Base/all: Base/app/all
-.PHONY : Base/all
+Chapter13_0_BinaryHeaps/all: Chapter13_0_BinaryHeaps/src/all
+Chapter13_0_BinaryHeaps/all: Chapter13_0_BinaryHeaps/app/all
+.PHONY : Chapter13_0_BinaryHeaps/all
 
 # Recursive "preinstall" directory target.
-Base/preinstall: Base/src/preinstall
-Base/preinstall: Base/app/preinstall
-.PHONY : Base/preinstall
+Chapter13_0_BinaryHeaps/preinstall: Chapter13_0_BinaryHeaps/src/preinstall
+Chapter13_0_BinaryHeaps/preinstall: Chapter13_0_BinaryHeaps/app/preinstall
+.PHONY : Chapter13_0_BinaryHeaps/preinstall
 
 # Recursive "clean" directory target.
-Base/clean: Base/src/clean
-Base/clean: Base/app/clean
-.PHONY : Base/clean
+Chapter13_0_BinaryHeaps/clean: Chapter13_0_BinaryHeaps/src/clean
+Chapter13_0_BinaryHeaps/clean: Chapter13_0_BinaryHeaps/app/clean
+.PHONY : Chapter13_0_BinaryHeaps/clean
 
 #=============================================================================
-# Directory level rules for directory Base/app
+# Directory level rules for directory Chapter13_0_BinaryHeaps/app
 
 # Recursive "all" directory target.
-Base/app/all: Base/app/CMakeFiles/Base_Executable.dir/all
-.PHONY : Base/app/all
+Chapter13_0_BinaryHeaps/app/all: Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/all
+.PHONY : Chapter13_0_BinaryHeaps/app/all
 
 # Recursive "preinstall" directory target.
-Base/app/preinstall:
-.PHONY : Base/app/preinstall
+Chapter13_0_BinaryHeaps/app/preinstall:
+.PHONY : Chapter13_0_BinaryHeaps/app/preinstall
 
 # Recursive "clean" directory target.
-Base/app/clean: Base/app/CMakeFiles/Base_Executable.dir/clean
-.PHONY : Base/app/clean
+Chapter13_0_BinaryHeaps/app/clean: Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/clean
+.PHONY : Chapter13_0_BinaryHeaps/app/clean
 
 #=============================================================================
-# Directory level rules for directory Base/src
+# Directory level rules for directory Chapter13_0_BinaryHeaps/src
 
 # Recursive "all" directory target.
-Base/src/all: Base/src/CMakeFiles/Base_MyLib.dir/all
-.PHONY : Base/src/all
+Chapter13_0_BinaryHeaps/src/all: Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/all
+.PHONY : Chapter13_0_BinaryHeaps/src/all
 
 # Recursive "preinstall" directory target.
-Base/src/preinstall:
-.PHONY : Base/src/preinstall
+Chapter13_0_BinaryHeaps/src/preinstall:
+.PHONY : Chapter13_0_BinaryHeaps/src/preinstall
 
 # Recursive "clean" directory target.
-Base/src/clean: Base/src/CMakeFiles/Base_MyLib.dir/clean
-.PHONY : Base/src/clean
+Chapter13_0_BinaryHeaps/src/clean: Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/clean
+.PHONY : Chapter13_0_BinaryHeaps/src/clean
 
 #=============================================================================
-# Target rules for target Base/src/CMakeFiles/Base_MyLib.dir
+# Target rules for target Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir
 
 # All Build rule for target.
-Base/src/CMakeFiles/Base_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Base_MyLib"
-.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/all
+Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\src\CMakeFiles\Chapter13_0_BinaryHeaps_MyLib.dir\build.make Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\src\CMakeFiles\Chapter13_0_BinaryHeaps_MyLib.dir\build.make Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=3 "Built target Chapter13_0_BinaryHeaps_MyLib"
+.PHONY : Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-Base/src/CMakeFiles/Base_MyLib.dir/rule: cmake_check_build_system
+Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/src/CMakeFiles/Base_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/rule
+.PHONY : Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/rule
 
 # Convenience name for target.
-Base_MyLib: Base/src/CMakeFiles/Base_MyLib.dir/rule
-.PHONY : Base_MyLib
+Chapter13_0_BinaryHeaps_MyLib: Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/rule
+.PHONY : Chapter13_0_BinaryHeaps_MyLib
 
 # clean rule for target.
-Base/src/CMakeFiles/Base_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Base\src\CMakeFiles\Base_MyLib.dir\build.make Base/src/CMakeFiles/Base_MyLib.dir/clean
-.PHONY : Base/src/CMakeFiles/Base_MyLib.dir/clean
+Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\src\CMakeFiles\Chapter13_0_BinaryHeaps_MyLib.dir\build.make Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/clean
+.PHONY : Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target Base/app/CMakeFiles/Base_Executable.dir
+# Target rules for target Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir
 
 # All Build rule for target.
-Base/app/CMakeFiles/Base_Executable.dir/all: Base/src/CMakeFiles/Base_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Base_Executable"
-.PHONY : Base/app/CMakeFiles/Base_Executable.dir/all
+Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/all: Chapter13_0_BinaryHeaps/src/CMakeFiles/Chapter13_0_BinaryHeaps_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\app\CMakeFiles\Chapter13_0_BinaryHeaps_Executable.dir\build.make Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\app\CMakeFiles\Chapter13_0_BinaryHeaps_Executable.dir\build.make Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles --progress-num=1,2 "Built target Chapter13_0_BinaryHeaps_Executable"
+.PHONY : Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-Base/app/CMakeFiles/Base_Executable.dir/rule: cmake_check_build_system
+Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Base/app/CMakeFiles/Base_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AlgorithmsAndDataStructuresInC\build\CMakeFiles 0
-.PHONY : Base/app/CMakeFiles/Base_Executable.dir/rule
+.PHONY : Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/rule
 
 # Convenience name for target.
-Base_Executable: Base/app/CMakeFiles/Base_Executable.dir/rule
-.PHONY : Base_Executable
+Chapter13_0_BinaryHeaps_Executable: Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/rule
+.PHONY : Chapter13_0_BinaryHeaps_Executable
 
 # clean rule for target.
-Base/app/CMakeFiles/Base_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Base\app\CMakeFiles\Base_Executable.dir\build.make Base/app/CMakeFiles/Base_Executable.dir/clean
-.PHONY : Base/app/CMakeFiles/Base_Executable.dir/clean
+Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Chapter13_0_BinaryHeaps\app\CMakeFiles\Chapter13_0_BinaryHeaps_Executable.dir\build.make Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/clean
+.PHONY : Chapter13_0_BinaryHeaps/app/CMakeFiles/Chapter13_0_BinaryHeaps_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
